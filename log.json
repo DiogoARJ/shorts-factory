@@ -8,15 +8,21 @@
   "status": "published",
   "published_at": "2026-10-02T17:47+01:00",
   "url": "https://www.youtube.com/shorts/F37U8wwOY8M",
-  "tiktok_url": "https://www.tiktok.com/@restolhofoto/video/7692200994553253142"
+  "tiktok_url": "https://www.tiktok.com/@restolhofoto/video/7692200994553253142",
+  "voice_sid": 1
  },
  {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "slug": "2026-10-03-fstops-sqrt2",
   "format": "why",
   "style": "glass-editorial",
   "title": "Why F-Stops Go 1.4, 2, 2.8, 4 (Not 1, 2, 3, 4)",
-  "status": "draft-awaiting-review"
+  "status": "scheduled",
+  "slot": "extra",
+  "scheduled_at": "2026-10-03T00:45+01:00",
+  "voice_sid": 1,
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-1200119698780633081",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=2898478855520208792"
  },
  {
   "date": "2026-10-03",
@@ -24,6 +30,11 @@
   "format": "myth",
   "style": "poster-editorial",
   "title": "Telephoto Lenses Don't Compress Anything (Here's Proof)",
-  "status": "draft-awaiting-review"
+  "status": "scheduled",
+  "slot": "A",
+  "scheduled_at": "2026-10-03T10:00+01:00",
+  "voice_sid": 1,
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=2924237115026065016",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=3713981529937429152"
  }
 ]

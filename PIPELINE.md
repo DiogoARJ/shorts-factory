@@ -4,8 +4,18 @@ Channel: Diogo's YouTube channel (UC_ryAJnvgz6qWCSiOy-g3UQ), photography. Shorts
 motion-graphics explainers with a synthetic voice (Kokoro `af_bella`, sid 1). Diogo makes the long videos himself;
 these Shorts are 100 % ours. Talk to Diogo in **European Portuguese**, briefly.
 
-Cadence (from 2026-10-03): **1 Short per day**, published **19:00 Europe/Lisbon** on **YouTube Shorts + TikTok** via Metricool, for 2 weeks; then review.
-Diogo reviews in the app between the morning notification and 19:00 (5–10 min) and can delete the post in Metricool.
+Cadence (from 2026-10-03, 2-week test until 2026-10-16): **3 Shorts per day**, each on **YouTube Shorts + TikTok**
+via Metricool, in 3 slots (Europe/Lisbon; picked from Metricool best-time data for this brand):
+| slot | publish | run starts | content |
+|---|---|---|---|
+| A | 10:00 | 05:49 | educational |
+| B | 14:00 | 09:49 | educational |
+| C | 18:00 | 13:49 | Diogo's personal/vlog clip if one is in his inbox (see §1b), otherwise educational |
+Each scheduled run produces **only its own slot**. **First step of every run:** `getScheduledPosts` for today; if a
+YouTube post already exists within ±60 min of the slot time (e.g. Diogo or a previous session filled it), stop and
+report "slot já ocupado" — do not produce anything. Diogo reviews each video (~5 min) between the notification and
+publication and can delete the post in Metricool. Usage is limited: work efficiently (few snapshot rounds, no
+re-renders unless something is actually wrong).
 
 ## 0. Setup (every fresh session)
 ```bash
@@ -21,6 +31,17 @@ cd /home/claude/shorts-factory && bash engine/setup.sh      # TTS model, gsap, f
   in the final message ("Amanhã preciso de …, até às 9h") and only produce it once the material is in the repo
   under `inbox/`. If it is not there, skip to the next item.
 - If Diogo said a long video came out (see `inbox/long-videos.md`), a `from-long-video` Short may take priority.
+- **Backlog refill:** if fewer than 12 unused items remain, research and append 15 new topics (tagged by format,
+  each with one source link) before producing.
+- **Vary everything, not just the topic** (Diogo explicitly wants it, and it keeps the channel safe from the
+  mass-produced policy). Compared with the last 2 published Shorts, change: format, visual style (§4), **voice**,
+  **tone** and hook type. Voices (Kokoro `voice_sid` in video.json): 1 af_bella, 3 af_sarah, 5 am_adam, 6 am_michael,
+  7 bf_emma, 9 bm_george — never the same sid as the previous Short. Tones: `curious` (questions, wonder),
+  `punchy` (short sentences, myth-busting), `calm-explainer` (slower, speed ~1.0), `storyteller` (history/anecdote).
+  Store `voice_sid` and `tone` in the log entry. If a voice mispronounces a key word in a test, respell it in `say`.
+
+## 1b. Diogo's personal clip (slot C) — NOT ACTIVE YET
+Pending Diogo's answers (language, where he uploads). Until this section says ACTIVE, slot C is educational.
 
 ## 2. Research (mandatory)
 - Verify every number, date, name and claim with WebSearch/WebFetch (primary or reputable sources). No claim without a
@@ -77,15 +98,15 @@ Checks before publishing: 0 lint/validate errors; duration 30–58 s; `ffmpeg -i
 ## 6. Publish
 ```bash
 git add $V/video.json $V/scenes.py $V/anim.js $V/gen_images.py $V/final.mp4 log.json backlog.md
-git commit -m "Short: <slug>" && git push
+git commit -m "Short: <slug>" && git pull --rebase && git push
 ```
-Then Metricool `createScheduledPost` with blogId `7128060`, date today `19:00` Europe/Lisbon (if already past 18:30,
-use tomorrow 19:00 and say so), info:
+Then Metricool `createScheduledPost` with blogId `7128060`, date today at **your slot's time** (A 10:00, B 14:00,
+C 18:00 Europe/Lisbon; if it is already less than 30 min away, use the slot time +1 h and say so), info:
 ```json
 {"autoPublish": true, "draft": false, "text": "<description>", "firstCommentText": "<pinned_comment>",
  "media": ["https://raw.githubusercontent.com/DiogoARJ/shorts-factory/main/videos/<slug>/final.mp4"],
  "providers": [{"network": "youtube"}],
- "publicationDate": {"dateTime": "YYYY-MM-DDT19:00:00", "timezone": "Europe/Lisbon"},
+ "publicationDate": {"dateTime": "YYYY-MM-DDT<HH:MM>:00", "timezone": "Europe/Lisbon"},
  "youtubeData": {"title": "<title>", "type": "short", "privacy": "public", "tags": [...],
                  "category": "EDUCATION", "madeForKids": false, "isAiGeneratedContent": false},
  "descendants": [], "shortener": false, "smartLinkData": {"ids": []}, "mediaAltText": [], "hasNotReadNotes": false}
@@ -93,12 +114,12 @@ use tomorrow 19:00 and say so), info:
 (`isAiGeneratedContent` is for realistic synthetic people/events; our animated explainers are not that.)
 
 **Also post the same video to TikTok** (account `restolhofoto`, same Metricool brand) as a **separate**
-`createScheduledPost` at the same 19:00, so the two platforms can be compared:
+`createScheduledPost` at the same slot time, so the two platforms can be compared:
 ```json
 {"autoPublish": true, "draft": false,
  "text": "<hook sentence + emoji> <2-line explanation> #photography #camera #photographytips #learnontiktok #<topic tag>",
  "firstCommentText": "", "media": ["<same raw.githubusercontent URL>"], "providers": [{"network": "tiktok"}],
- "publicationDate": {"dateTime": "YYYY-MM-DDT19:00:00", "timezone": "Europe/Lisbon"},
+ "publicationDate": {"dateTime": "YYYY-MM-DDT<HH:MM>:00", "timezone": "Europe/Lisbon"},
  "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": "<same title>", "isAigc": true,
                 "disableComment": false, "disableDuet": false, "disableStitch": false,
                 "commercialContentThirdParty": false, "commercialContentOwnBrand": false, "autoAddMusic": false},
@@ -106,11 +127,11 @@ use tomorrow 19:00 and say so), info:
 ```
 TikTok caption ≤ 300 chars, more casual than YouTube; `isAigc: true` (synthetic voice — TikTok's AI label).
 **Never post to the Instagram account** in this brand (Diogo keeps Instagram for his own non-AI content).
-Add the entry to `log.json` (date, slug, format, title, both plannerUrls; later the public URLs) and push again.
+Add the entry to `log.json` (date, slug, slot, format, style, voice_sid, tone, title, both plannerUrls; later the public URLs) and push again.
 
 ## 7. Report to Diogo (final message, Portuguese, short)
 Send the MP4 with SendUserFile, then: topic + format in one line, title, publication time, "para cancelar apaga o
-post no Metricool até às 19h" + plannerUrl, anything uncertain (pronunciation, a fact), and **what you need from him
+post no Metricool antes da hora" + plannerUrl, anything uncertain (pronunciation, a fact), and **what you need from him
 for tomorrow, if anything**. If anything failed, say exactly what and leave the video committed for manual upload.
 
 ## Never
