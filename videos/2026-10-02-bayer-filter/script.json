@@ -1,0 +1,19 @@
+[
+ ["Two thirds of every photo you've ever taken... is made up.", "Two thirds of every photo you've ever taken is made up.", 0.35, "A"],
+ ["Your camera's sensor is colorblind.", null, 0.12, "B"],
+ ["It only measures how much light hits each pixel.", null, 0.22, "B"],
+ ["So in nineteen seventy-six, a Kodak engineer named Bryce Bayer patented a trick.", "So in 1976, a Kodak engineer named Bryce Bayer patented a trick.", 0.12, "C"],
+ ["Put a tiny color filter over every single pixel.", null, 0.08, "D"],
+ ["Red, green, or blue. Only one.", null, 0.22, "D"],
+ ["But look closer. Half of them are green.", null, 0.22, "E"],
+ ["A twenty-four megapixel camera has twelve million green pixels,", "A 24 megapixel camera has 12 million green pixels,", 0.05, "F"],
+ ["but only six million red, and six million blue.", "but only 6 million red, and 6 million blue.", 0.22, "F"],
+ ["Why? Because your eyes are tuned to green.", null, 0.08, "G"],
+ ["It carries about seventy percent of the brightness you see.", "It carries about 70% of the brightness you see.", 0.22, "G"],
+ ["So each pixel measures one color,", null, 0.04, "H"],
+ ["and guesses the other two from its neighbors.", null, 0.1, "H"],
+ ["It's called dee-mosaicing.", "It's called demosaicing.", 0.18, "H"],
+ ["And when it guesses wrong, you get these rainbow artifacts.", null, 0.25, "I"],
+ ["One color measured. Two invented.", null, 0.12, "J"],
+ ["In every pixel, of every photo you've ever taken.", null, 0.0, "J"]
+]

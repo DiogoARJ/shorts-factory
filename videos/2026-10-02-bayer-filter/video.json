@@ -1,0 +1,146 @@
+{
+ "slug": "2026-10-02-bayer-filter",
+ "format": "explainer",
+ "topic": "Bayer filter / demosaicing: 2/3 of every photo's color is interpolated",
+ "voice_sid": 1,
+ "speed": 1.1,
+ "chords": [
+  "Am",
+  "F",
+  "C",
+  "G"
+ ],
+ "bpm": 96,
+ "hits": [
+  [
+   "A",
+   "made"
+  ],
+  [
+   "I",
+   "rainbow"
+  ]
+ ],
+ "lines": [
+  [
+   "Two thirds of every photo you've ever taken... is made up.",
+   "Two thirds of every photo you've ever taken... is made up.",
+   0.35,
+   "A"
+  ],
+  [
+   "Your camera's sensor is colorblind.",
+   null,
+   0.12,
+   "B"
+  ],
+  [
+   "It only measures how much light hits each pixel.",
+   null,
+   0.22,
+   "B"
+  ],
+  [
+   "So in nineteen seventy-six, a Kodak engineer named Bryce Bayer patented a trick.",
+   "So in 1976, a Kodak engineer named Bryce Bayer patented a trick.",
+   0.12,
+   "C"
+  ],
+  [
+   "Put a tiny color filter over every single pixel.",
+   null,
+   0.08,
+   "D"
+  ],
+  [
+   "Red, green, or blue. Only one.",
+   null,
+   0.22,
+   "D"
+  ],
+  [
+   "But look closer. Half of them are green.",
+   null,
+   0.22,
+   "E"
+  ],
+  [
+   "A twenty-four megapixel camera has twelve million green pixels,",
+   "A 24 megapixel camera has 12 million green pixels,",
+   0.05,
+   "F"
+  ],
+  [
+   "but only six million red, and six million blue.",
+   "but only 6 million red, and 6 million blue.",
+   0.22,
+   "F"
+  ],
+  [
+   "Why? Because your eyes are tuned to green.",
+   null,
+   0.08,
+   "G"
+  ],
+  [
+   "It carries about seventy percent of the brightness you see.",
+   "It carries about 70% of the brightness you see.",
+   0.22,
+   "G"
+  ],
+  [
+   "So each pixel measures one color,",
+   null,
+   0.04,
+   "H"
+  ],
+  [
+   "and guesses the other two from its neighbors.",
+   null,
+   0.1,
+   "H"
+  ],
+  [
+   "It's called dee-mosaicing.",
+   "It's called demosaicing.",
+   0.18,
+   "H"
+  ],
+  [
+   "And when it guesses wrong, you get these rainbow artifacts.",
+   null,
+   0.25,
+   "I"
+  ],
+  [
+   "One color measured. Two invented.",
+   null,
+   0.12,
+   "J"
+  ],
+  [
+   "In every pixel, of every photo you've ever taken.",
+   null,
+   0.0,
+   "J"
+  ]
+ ],
+ "youtube": {
+  "title": "2/3 of Every Photo You've Ever Taken Is Made Up",
+  "description": "Your camera sensor can't see color. Every pixel sits under ONE red, green or blue filter (the Bayer filter, patented by Bryce Bayer at Kodak in 1976), and the other two colors are guessed from its neighbors. That's demosaicing.\nHalf the filters are green because green carries ~72% of the brightness you perceive (ITU-R BT.709).\nThe rainbow demo is a real simulation: a zone plate run through a Bayer mosaic + bilinear demosaicing.\n(Foveon sensors skip this; Fujifilm X-Trans uses a different pattern.)\n#photography #camera #shorts",
+  "tags": [
+   "photography",
+   "camera sensor",
+   "bayer filter",
+   "demosaicing",
+   "how cameras work",
+   "photography tips"
+  ],
+  "pinned_comment": "Next camera secret: why phones beat big cameras at night, or why f-stops go 1.4, 2, 2.8, 4? 👇"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bayer_filter",
+  "https://en.wikipedia.org/wiki/Bryce_Bayer",
+  "https://www.imaging-resource.com/news/2012/11/20/bryce-bayer-who-created-bayer-filter-for-digital-cameras-has-died"
+ ]
+}

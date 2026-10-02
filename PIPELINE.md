@@ -1,0 +1,93 @@
+# Shorts Factory — daily run instructions
+
+Channel: Diogo's YouTube channel (UC_ryAJnvgz6qWCSiOy-g3UQ), photography. Shorts are in **English**, faceless,
+motion-graphics explainers with a synthetic voice (Kokoro `af_bella`, sid 1). Diogo makes the long videos himself;
+these Shorts are 100 % ours. Talk to Diogo in **European Portuguese**, briefly.
+
+Cadence (from 2026-10-03): **1 Short per day**, published **19:00 Europe/Lisbon** via Metricool, for 2 weeks; then review.
+Diogo reviews in the app between the morning notification and 19:00 (5–10 min) and can delete the post in Metricool.
+
+## 0. Setup (every fresh session)
+```bash
+cd /home/claude/shorts-factory && bash engine/setup.sh      # TTS model, gsap, fonts into .cache/ (gitignored)
+```
+
+## 1. Pick today's topic
+- Read `log.json` (what was published) and `backlog.md`.
+- Take the first unused backlog item whose **format differs from the last 2 published** (formats: `explainer`, `myth`,
+  `before-after`, `why`, `data`, `history`, `from-long-video`). Rotation is required (YouTube "inauthentic /
+  mass-produced content" policy): vary the format, layout, colour accents, music chords/bpm and hook style each day.
+- Items tagged `NEEDS-DIOGO` need his material: never make them the same day. Ask for the material **the day before**
+  in the final message ("Amanhã preciso de …, até às 9h") and only produce it once the material is in the repo
+  under `inbox/`. If it is not there, skip to the next item.
+- If Diogo said a long video came out (see `inbox/long-videos.md`), a `from-long-video` Short may take priority.
+
+## 2. Research (mandatory)
+- Verify every number, date, name and claim with WebSearch/WebFetch (primary or reputable sources). No claim without a
+  source. Put sources in `video.json` → `sources`. When unsure, cut the claim. Round honestly ("about 70%").
+- Look at what already exists on the topic (WebSearch "<topic> shorts") and find a sharper angle/hook.
+
+## 3. Script rules (`videos/<YYYY-MM-DD-slug>/video.json`)
+- 35–50 s, ~110–130 words. **Hook ≤ 2 s**: a surprising, specific, true claim, a question, or a contradiction. No intro, no "hey guys".
+- One idea per scene; 7–10 scenes (ids A, B, C…). Show data, numbers, a mechanism, a real simulation.
+- The last line should loop into the first line (seamless replay).
+- `lines`: `[say, show|null, pause_s, sceneId]`. `say` is what the TTS reads (spell numbers/years/acronyms phonetically
+  if needed: "nineteen seventy-six", "dee-mosaicing"); `show` is the caption text (digits, "%"). Same meaning, any word count.
+- Add `hits` (1–2 big impact words), `chords` (from Am F C G Em Dm D E), `bpm` (88–110), `youtube` block
+  (title ≤ 70 chars with the hook, description with the facts + sources summary + 3 hashtags, tags, pinned_comment
+  that asks a question to drive comments), `cta` (top chip in the last 2.8 s).
+- Copy `videos/2026-10-02-bayer-filter/video.json` as the template.
+
+## 4. Visuals (`scenes.py` + `anim.js` + `gen_images.py` in the video folder)
+- Exemplar: `videos/2026-10-02-bayer-filter/` — read its scenes.py and anim.js first and reuse its building blocks
+  (card, kicker, stamp, chip, tiles, bars, pills, tags, wipe, trio). House style is in `engine/style.css`
+  (dark #0b0c10, cream #f4f1ea, gold #ffc542, red #ff3b2f, Anton + Inter). Extra CSS goes in `make()["css"]`.
+- Every scene: `<div class="kicker" id="k<ID>">SHORT HEADLINE</div>` (≤ 22 chars, one line) — popped automatically.
+- Layout safe zones (1080×1920): headline y 150; graphics y 290–1150, x 90–990; captions y 1270–1520 (automatic);
+  nothing important below y 1550 or right of x 990 (Shorts UI).
+- Prefer **real computed visuals** (numpy simulations: blur, noise, exposure, diffraction, mosaics…) over clip-art.
+  `gen_images.py` writes PNGs into `img/`. No copyrighted images, no logos, no real people's photos.
+- `anim.js` uses helpers from `engine/base_pre.js`: `tl, $, F(el,from,to,at), pop, out, slam, pulse`, and `KT`
+  (word times you compute in `scenes.py` with `ctx.wt(scene, word, n)`). Sync key moments to spoken words.
+  Elements that appear later need class `hid` (opacity 0). No `repeat:-1`.
+
+## 5. Produce
+```bash
+V=videos/<slug>
+(cd $V && mkdir -p img && python3 gen_images.py)
+python3 engine/voice.py $V && python3 engine/mix.py $V && python3 engine/build.py $V
+bash engine/render.sh $V 0.5,3,8,14,20,27,34,40     # lint + validate + snapshots only
+# look at $V/build/snaps/contact-sheet*.jpg: fix overlaps, empty scenes, text overflow, wrong sync; repeat
+bash engine/render.sh $V                            # full render (~5 min) -> $V/final.mp4
+```
+Checks before publishing: 0 lint/validate errors; duration 30–58 s; `ffmpeg -i final.mp4 -af ebur128 -f null -`
+≈ -14 LUFS; extract and look at 2 frames from final.mp4; re-read the script against the sources.
+
+## 6. Publish
+```bash
+git add $V/video.json $V/scenes.py $V/anim.js $V/gen_images.py $V/final.mp4 log.json backlog.md
+git commit -m "Short: <slug>" && git push
+```
+Then Metricool `createScheduledPost` with blogId `7128060`, date today `19:00` Europe/Lisbon (if already past 18:30,
+use tomorrow 19:00 and say so), info:
+```json
+{"autoPublish": true, "draft": false, "text": "<description>", "firstCommentText": "<pinned_comment>",
+ "media": ["https://raw.githubusercontent.com/DiogoARJ/shorts-factory/main/videos/<slug>/final.mp4"],
+ "providers": [{"network": "youtube"}],
+ "publicationDate": {"dateTime": "YYYY-MM-DDT19:00:00", "timezone": "Europe/Lisbon"},
+ "youtubeData": {"title": "<title>", "type": "short", "privacy": "public", "tags": [...],
+                 "category": "EDUCATION", "madeForKids": false, "isAiGeneratedContent": false},
+ "descendants": [], "shortener": false, "smartLinkData": {"ids": []}, "mediaAltText": [], "hasNotReadNotes": false}
+```
+(`isAiGeneratedContent` is for realistic synthetic people/events; our animated explainers are not that.)
+Add the entry to `log.json` (date, slug, format, title, metricool plannerUrl) and push again.
+
+## 7. Report to Diogo (final message, Portuguese, short)
+Send the MP4 with SendUserFile, then: topic + format in one line, title, publication time, "para cancelar apaga o
+post no Metricool até às 19h" + plannerUrl, anything uncertain (pronunciation, a fact), and **what you need from him
+for tomorrow, if anything**. If anything failed, say exactly what and leave the video committed for manual upload.
+
+## Never
+- Publish a claim you could not source. Reuse the exact same template/hook twice in a row.
+- Post anywhere other than YouTube, or to another Metricool brand.
+- Delete or edit Diogo's long videos or other posts.
