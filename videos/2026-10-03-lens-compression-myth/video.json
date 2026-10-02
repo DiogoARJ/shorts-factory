@@ -1,0 +1,35 @@
+{
+ "slug": "2026-10-03-lens-compression-myth",
+ "format": "myth",
+ "style": "poster-editorial",
+ "topic": "Lens compression myth: perspective comes from camera distance, not focal length (pinhole renders + crop proof)",
+ "voice_sid": 1, "speed": 1.1,
+ "chords": ["Am", "F", "C", "G"], "bpm": 100,
+ "hits": [["A", "myth"], ["F", "33"], ["H", "same"]],
+ "cta": "FOLLOW · MORE CAMERA MYTHS",
+ "lines": [
+  ["Telephoto lenses don't compress the background.", null, 0.12, "A"],
+  ["That's a myth.", null, 0.25, "A"],
+  ["You've seen these shots. A giant moon, behind a tiny lighthouse.", null, 0.15, "B"],
+  ["Everyone says the long lens pulled the moon closer.", null, 0.1, "C"],
+  ["It didn't. The moon is always half a degree wide.", null, 0.22, "C"],
+  ["Watch. Twenty-four millimeters, one hundred meters from the lighthouse.", "Watch. 24mm, 100 meters from the lighthouse.", 0.2, "D"],
+  ["Now stand three point three kilometers away, and zoom to eight hundred millimeters.", "Now stand 3.3 km away, and zoom to 800mm.", 0.1, "E"],
+  ["Same lighthouse. Same size.", null, 0.15, "E"],
+  ["But the moon is now thirty-three times bigger.", "But the moon is now 33 times bigger.", 0.2, "F"],
+  ["Because you moved. Not because of the lens.", null, 0.25, "G"],
+  ["Proof: stay at three point three kilometers with the twenty-four, and crop.", "Proof: stay at 3.3 km with the 24, and crop.", 0.15, "H"],
+  ["Same picture. Just fewer pixels.", null, 0.25, "H"],
+  ["The lens decides how much you see. Your feet decide how it looks.", null, 0.2, "I"],
+  ["So no, the lens doesn't compress anything. Distance does.", null, 0.0, "J"]
+ ],
+ "youtube": {
+  "title": "Telephoto Lenses Don't Compress Anything (Here's Proof)",
+  "description": "\"Lens compression\" is a myth: perspective depends only on where the camera stands, not on the focal length. A 24mm from 100 m and an 800mm from 3.3 km frame the same 30 m lighthouse at the same size, but the moon (always ~0.5° wide) is 800/24 ≈ 33× bigger in the second, because you moved. Crop the 24mm shot taken from 3.3 km and you get the same picture as the 800mm, just with fewer pixels.\nEvery frame here is a real pinhole-camera render.\n#photography #camera #shorts",
+  "tags": ["photography", "lens compression", "telephoto", "focal length", "perspective", "photography myths", "moon photography"],
+  "pinned_comment": "Did you believe in lens compression before this? Be honest 👇"
+ },
+ "tiktok_text": "Telephoto lenses don't compress anything 🌕 It's where you stand. Real camera renders inside. #photography #camera #photographymyths #moonphotography #learnontiktok",
+ "sources": ["https://en.wikipedia.org/wiki/Perspective_distortion", "https://en.wikipedia.org/wiki/Angular_diameter"],
+ "status": "draft-for-review"
+}

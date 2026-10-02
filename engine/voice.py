@@ -11,8 +11,8 @@ sr = 24000; sid = cfgv.get("voice_sid", 1); speed = cfgv.get("speed", 1.1)
 def spoken(w):
     m = re.fullmatch(r"f/(\d+\.?\d*)[,.?]*", w)
     if m: return "f " + spoken(m.group(1))
-    m = re.fullmatch(r"(\d+\.?\d*)(mm|cm|ms|s|x|×|K)[,.?]*", w)
-    if m: return spoken(m.group(1)) + {"mm": " millimeters", "cm": " centimeters", "ms": " milliseconds", "s": " seconds", "x": " times", "×": " times", "K": " kelvin"}[m.group(2)]
+    m = re.fullmatch(r"(\d+\.?\d*)(mm|cm|ms|km|m|s|x|×|K)[,.?]*", w)
+    if m: return spoken(m.group(1)) + {"mm": " millimeters", "cm": " centimeters", "ms": " milliseconds", "s": " seconds", "x": " times", "×": " times", "K": " kelvin", "km": " kilometers", "m": " meters"}[m.group(2)]
     core = re.sub(r"[^\w%.,]", "", w).rstrip(".,")
     m = re.fullmatch(r"(\d[\d,]*\.?\d*)(%?)", core)
     if m:

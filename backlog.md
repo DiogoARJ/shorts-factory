@@ -5,7 +5,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 2. [myth] "More megapixels = better photos" — pixel size, light per pixel, diffraction, viewing size; simulate.
 3. [before-after] Shutter speed 1/1000 vs 1/15 vs 1 s — simulated motion blur of a moving object.
 4. [explainer] Phone night mode — stacking many frames, noise falls with √N; simulate 1 vs 4 vs 16 frames.
-5. [myth] "Telephoto lenses compress the background" — it's camera distance, not focal length; same framing demo.
+5. ~~[myth] "Telephoto lenses compress the background" — camera distance, not focal length; same framing demo.~~ (2026-10-03 draft, poster style, awaiting Diogo — do NOT redo)
 6. [data] Your eye vs your sensor: dynamic range in stops (eye ~ vs sensor ~14), why skies blow out.
 7. [before-after] ISO 100 vs 6400 — photon shot noise simulation (noise ∝ √signal).
 8. [explainer] Rolling shutter jello — line-by-line readout simulation on a spinning propeller.
