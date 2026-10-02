@@ -4,7 +4,7 @@ Channel: Diogo's YouTube channel (UC_ryAJnvgz6qWCSiOy-g3UQ), photography. Shorts
 motion-graphics explainers with a synthetic voice (Kokoro `af_bella`, sid 1). Diogo makes the long videos himself;
 these Shorts are 100 % ours. Talk to Diogo in **European Portuguese**, briefly.
 
-Cadence (from 2026-10-03): **1 Short per day**, published **19:00 Europe/Lisbon** via Metricool, for 2 weeks; then review.
+Cadence (from 2026-10-03): **1 Short per day**, published **19:00 Europe/Lisbon** on **YouTube Shorts + TikTok** via Metricool, for 2 weeks; then review.
 Diogo reviews in the app between the morning notification and 19:00 (5–10 min) and can delete the post in Metricool.
 
 ## 0. Setup (every fresh session)
@@ -80,7 +80,22 @@ use tomorrow 19:00 and say so), info:
  "descendants": [], "shortener": false, "smartLinkData": {"ids": []}, "mediaAltText": [], "hasNotReadNotes": false}
 ```
 (`isAiGeneratedContent` is for realistic synthetic people/events; our animated explainers are not that.)
-Add the entry to `log.json` (date, slug, format, title, metricool plannerUrl) and push again.
+
+**Also post the same video to TikTok** (account `restolhofoto`, same Metricool brand) as a **separate**
+`createScheduledPost` at the same 19:00, so the two platforms can be compared:
+```json
+{"autoPublish": true, "draft": false,
+ "text": "<hook sentence + emoji> <2-line explanation> #photography #camera #photographytips #learnontiktok #<topic tag>",
+ "firstCommentText": "", "media": ["<same raw.githubusercontent URL>"], "providers": [{"network": "tiktok"}],
+ "publicationDate": {"dateTime": "YYYY-MM-DDT19:00:00", "timezone": "Europe/Lisbon"},
+ "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": "<same title>", "isAigc": true,
+                "disableComment": false, "disableDuet": false, "disableStitch": false,
+                "commercialContentThirdParty": false, "commercialContentOwnBrand": false, "autoAddMusic": false},
+ "descendants": [], "shortener": false, "smartLinkData": {"ids": []}, "mediaAltText": [], "hasNotReadNotes": false}
+```
+TikTok caption ≤ 300 chars, more casual than YouTube; `isAigc: true` (synthetic voice — TikTok's AI label).
+**Never post to the Instagram account** in this brand (Diogo keeps Instagram for his own non-AI content).
+Add the entry to `log.json` (date, slug, format, title, both plannerUrls; later the public URLs) and push again.
 
 ## 7. Report to Diogo (final message, Portuguese, short)
 Send the MP4 with SendUserFile, then: topic + format in one line, title, publication time, "para cancelar apaga o
@@ -89,5 +104,5 @@ for tomorrow, if anything**. If anything failed, say exactly what and leave the 
 
 ## Never
 - Publish a claim you could not source. Reuse the exact same template/hook twice in a row.
-- Post anywhere other than YouTube, or to another Metricool brand.
+- Post anywhere other than YouTube + TikTok (never Instagram), or to another Metricool brand.
 - Delete or edit Diogo's long videos or other posts.
