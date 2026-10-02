@@ -1,3 +1,5 @@
 .cache/
 videos/*/build/
 videos/*/voice.wav
+__pycache__/
+videos/*/img/
