@@ -1,0 +1,34 @@
+{
+ "slug": "2026-10-03-fstops-sqrt2",
+ "format": "why",
+ "style": "glass-editorial",
+ "topic": "Why f-stops go 1.4, 2, 2.8, 4: f-number is a ratio, light follows area, each stop is x sqrt(2)",
+ "voice_sid": 1, "speed": 1.08,
+ "chords": ["Dm", "F", "C", "G"], "bpm": 92,
+ "hits": [["G", "1.414"], ["I", "128"]],
+ "cta": "FOLLOW FOR MORE CAMERA MATH",
+ "lines": [
+  ["Why do f-stops go one point four, two, two point eight, four...", "Why do f-stops go 1.4, 2, 2.8, 4...", 0.08, "A"],
+  ["instead of just one, two, three, four?", "instead of just 1, 2, 3, 4?", 0.3, "A"],
+  ["Because an f-number isn't a size. It's a ratio.", null, 0.2, "B"],
+  ["Focal length, divided by the width of the opening.", null, 0.1, "C"],
+  ["A fifty millimeter lens at f two has a hole twenty-five millimeters wide.", "A 50mm lens at f/2 has a hole 25mm wide.", 0.22, "C"],
+  ["But light doesn't care about width. It cares about area.", null, 0.15, "D"],
+  ["Make the hole twice as wide, and four times the light gets in.", null, 0.22, "E"],
+  ["Photographers wanted every step to cut the light exactly in half.", null, 0.15, "F"],
+  ["Half the area means the width shrinks by the square root of two.", null, 0.08, "G"],
+  ["One point four one four.", "1.414.", 0.25, "G"],
+  ["Multiply again and again: one point four, two, two point eight, four, five point six, eight, eleven, sixteen.", "Multiply again and again: 1.4, 2, 2.8, 4, 5.6, 8, 11, 16.", 0.22, "H"],
+  ["Every click is half the light. From f one point four to f sixteen, that's a hundred and twenty-eight times less.", "Every click is half the light. From f/1.4 to f/16, that's 128 times less.", 0.25, "I"],
+  ["It was never random. It's the square root of two, hiding on every lens.", null, 0.0, "J"]
+ ],
+ "youtube": {
+  "title": "Why F-Stops Go 1.4, 2, 2.8, 4 (Not 1, 2, 3, 4)",
+  "description": "The f-number is a ratio: focal length ÷ aperture diameter (a 50mm lens at f/2 has a 25mm opening). Light depends on the AREA of the opening, and area grows with the square of the width. To halve the light each stop, the width must shrink by √2 ≈ 1.414 — so the f-numbers multiply by √2: 1.4, 2, 2.8, 4, 5.6, 8, 11, 16 (rounded). f/1.4 → f/16 is 7 stops = 2^7 = 128× less light.\n#photography #camera #shorts",
+  "tags": ["photography", "aperture", "f-stop", "f-number", "exposure", "photography basics", "camera settings"],
+  "pinned_comment": "Did you know this, or did you just memorize the numbers? 👇"
+ },
+ "tiktok_text": "Why f-stops go 1.4, 2, 2.8, 4 and not 1, 2, 3, 4 🤓 It's the square root of two hiding on every lens. #photography #camera #aperture #photographytips #learnontiktok",
+ "sources": ["https://en.wikipedia.org/wiki/F-number"],
+ "status": "draft-for-review"
+}

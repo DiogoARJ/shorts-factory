@@ -9,6 +9,10 @@ tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.Offl
     kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(model=d+"model.onnx", voices=d+"voices.bin", tokens=d+"tokens.txt", data_dir=d+"espeak-ng-data"), num_threads=2)))
 sr = 24000; sid = cfgv.get("voice_sid", 1); speed = cfgv.get("speed", 1.1)
 def spoken(w):
+    m = re.fullmatch(r"f/(\d+\.?\d*)[,.?]*", w)
+    if m: return "f " + spoken(m.group(1))
+    m = re.fullmatch(r"(\d+\.?\d*)(mm|cm|ms|s|x|×|K)[,.?]*", w)
+    if m: return spoken(m.group(1)) + {"mm": " millimeters", "cm": " centimeters", "ms": " milliseconds", "s": " seconds", "x": " times", "×": " times", "K": " kelvin"}[m.group(2)]
     core = re.sub(r"[^\w%.,]", "", w).rstrip(".,")
     m = re.fullmatch(r"(\d[\d,]*\.?\d*)(%?)", core)
     if m:

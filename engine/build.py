@@ -9,7 +9,7 @@ order = S["order"]; T = S["total"]
 st = dict(zip(order, S["scenes"])); en = {k: (S["scenes"][i+1] if i+1 < len(order) else T) for i, k in enumerate(order)}
 clean = lambda w: re.sub(r"[^\w%']", "", w).lower()
 def wt(scene, word, n=0, end=False):
-    ws = [w for l in L if l["scene"] == scene for w in l["words"] if clean(w[0]) == word.lower()]
+    ws = [w for l in L if l["scene"] == scene for w in l["words"] if clean(w[0]) == clean(word)]
     if len(ws) <= n: raise KeyError(f"word '{word}' #{n} not in scene {scene}")
     return round(ws[n][2 if end else 1], 3)
 ctx = types.SimpleNamespace(wt=wt, st=st, en=en, T=T, L=L, cfg=cfg)
@@ -39,6 +39,7 @@ html = f'''<!doctype html><html><head><meta charset="utf-8"><link rel="styleshee
 {scenes_html}
 </div>
 <div class="clip" id="capwrap" data-start="0" data-duration="{T}" data-track-index="2">{"".join(caps)}</div>
+{R.get("overlay", "")}
 <div id="flash"></div><div id="prog"></div>
 <div class="chip hid cta" id="cta">{cta}</div>
 <audio id="mix" class="clip" data-start="0" data-duration="{T}" data-track-index="9" src="mix.wav"></audio>
