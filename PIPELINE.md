@@ -39,10 +39,21 @@ cd /home/claude/shorts-factory && bash engine/setup.sh      # TTS model, gsap, f
 - Copy `videos/2026-10-02-bayer-filter/video.json` as the template.
 
 ## 4. Visuals (`scenes.py` + `anim.js` + `gen_images.py` in the video folder)
-- Exemplar: `videos/2026-10-02-bayer-filter/` — read its scenes.py and anim.js first and reuse its building blocks
-  (card, kicker, stamp, chip, tiles, bars, pills, tags, wipe, trio). House style is in `engine/style.css`
-  (dark #0b0c10, cream #f4f1ea, gold #ffc542, red #ff3b2f, Anton + Inter). Extra CSS goes in `make()["css"]`.
-- Every scene: `<div class="kicker" id="k<ID>">SHORT HEADLINE</div>` (≤ 22 chars, one line) — popped automatically.
+**Visual style rotates** (Diogo likes the variety). There are 3 looks; pick one **different from the last published
+Short** (check `style` in `log.json`), cycling `impact` → `poster-editorial` → `glass-editorial`. Record it as
+`"style"` in the log entry. Each look has an exemplar folder — copy its `scenes.py`/`anim.js`/`style.css` patterns:
+| style | exemplar | look |
+|---|---|---|
+| `impact` | `videos/2026-10-02-bayer-filter/` | dark, Anton caps, gold/red, cards + stamps (house `engine/style.css`) |
+| `poster-editorial` | `videos/2026-10-03-lens-compression-myth/` | printed posters on paper, Archivo wide caps, mono meta lines, one red accent, halftone images, black-pill captions |
+| `glass-editorial` | `videos/2026-10-03-fstops-sqrt2/` | blurred bokeh photo bg, frosted glass panels, serif italic headlines, mono labels, gold accent |
+Keep the content rules identical across styles (hook ≤ 2 s, real computed visuals, captions, loop ending). Never
+copy a previous video's layouts/headlines verbatim — reuse the *style*, not the *scenes*.
+- Impact exemplar building blocks: card, kicker, stamp, chip, tiles, bars, pills, tags, wipe, trio. House style is in
+  `engine/style.css` (dark #0b0c10, cream #f4f1ea, gold #ffc542, red #ff3b2f, Anton + Inter). Extra CSS goes in
+  `make()["css"]` (the editorial styles keep theirs in the video folder's `style.css`; all fonts come from setup.sh).
+- In `impact`, every scene: `<div class="kicker" id="k<ID>">SHORT HEADLINE</div>` (≤ 22 chars, one line) — popped
+  automatically. The editorial styles put headlines inside the poster/panel instead.
 - Layout safe zones (1080×1920): headline y 150; graphics y 290–1150, x 90–990; captions y 1270–1520 (automatic);
   nothing important below y 1550 or right of x 990 (Shorts UI).
 - Prefer **real computed visuals** (numpy simulations: blur, noise, exposure, diffraction, mosaics…) over clip-art.
