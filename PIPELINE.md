@@ -40,8 +40,11 @@ cd /home/claude/shorts-factory && bash engine/setup.sh      # TTS model, gsap, f
   `punchy` (short sentences, myth-busting), `calm-explainer` (slower, speed ~1.0), `storyteller` (history/anecdote).
   Store `voice_sid` and `tone` in the log entry. If a voice mispronounces a key word in a test, respell it in `say`.
 
-## 1b. Diogo's personal clip (slot C) — NOT ACTIVE YET
-Pending Diogo's answers (language, where he uploads). Until this section says ACTIVE, slot C is educational.
+## 1b. Diogo's personal clip (slot C) — STARTING
+**RESERVED: 2026-10-04 slot C (18:00) is reserved for Diogo's own talking clip, edited in the main session.** The slot C run on
+2026-10-04 must NOT produce anything: stop and report "slot C reservado para o vídeo do Diogo".
+Delivery method for later days is still being decided (PC folder via the desktop bridge); until this section says ACTIVE,
+slot C on other days stays educational.
 
 ## 2. Research (mandatory)
 - Verify every number, date, name and claim with WebSearch/WebFetch (primary or reputable sources). No claim without a
