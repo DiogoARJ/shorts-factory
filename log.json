@@ -36,5 +36,17 @@
   "voice_sid": 1,
   "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=2924237115026065016",
   "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=3713981529937429152"
+ },
+ {
+  "date": "2026-10-03",
+  "slug": "2026-10-03-shutter-speed-vanishing-car",
+  "format": "before-after",
+  "style": "impact",
+  "tone": "punchy",
+  "title": "This Photo Has a Car in It. You Can't See It.",
+  "status": "scheduled",
+  "slot": "B",
+  "scheduled_at": "2026-10-03T14:00+01:00",
+  "voice_sid": 5
  }
 ]

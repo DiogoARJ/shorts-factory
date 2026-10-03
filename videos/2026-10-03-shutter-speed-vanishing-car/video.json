@@ -1,0 +1,45 @@
+{
+ "slug": "2026-10-03-shutter-speed-vanishing-car",
+ "format": "before-after",
+ "style": "impact",
+ "tone": "punchy",
+ "topic": "Shutter speed 1/1000 vs 1/15 vs 15 s: real motion-blur simulation where a 50 km/h car freezes, streaks, then vanishes",
+ "voice_sid": 5,
+ "speed": 1.1,
+ "chords": ["Em", "C", "G", "D"],
+ "bpm": 104,
+ "hits": [["A", "see"], ["E", "vanishes"]],
+ "cta": "FOLLOW · MORE CAMERA PHYSICS",
+ "lines": [
+  ["This photo has a car in it. You just can't see it.", null, 0.35, "A"],
+  ["It's driving at fifty kilometers an hour.", "It's driving at 50 km/h.", 0.08, "B"],
+  ["Only the shutter speed changes.", null, 0.22, "B"],
+  ["At one thousandth of a second, it moves one point four centimeters.", "At 1/1000 of a second, it moves 1.4 cm.", 0.08, "C"],
+  ["Frozen.", null, 0.22, "C"],
+  ["At one fifteenth, it moves almost a meter.", "At 1/15, it moves almost a meter.", 0.08, "D"],
+  ["Now it's a streak.", null, 0.22, "D"],
+  ["At fifteen seconds, it drives over two hundred meters.", "At 15 seconds, it drives over 200 meters.", 0.1, "E"],
+  ["Each spot sees it for under two percent of the time.", "Each spot sees it for under 2% of the time.", 0.08, "E"],
+  ["The car vanishes.", null, 0.25, "E"],
+  ["Same trick on water.", null, 0.06, "F"],
+  ["One thousandth freezes every drop.", "1/1000 freezes every drop.", 0.06, "F"],
+  ["One second turns it into fog.", "1 second turns it into fog.", 0.22, "F"],
+  ["But that's fifteen thousand times more light. Almost fourteen stops.", "But that's 15,000× more light. Almost 14 stops.", 0.08, "G"],
+  ["So stop down, or add an N D filter.", "So stop down, or add an ND filter.", 0.22, "G"],
+  ["Shooting handheld? Stay faster than one over your focal length.", "Shooting handheld? Stay faster than 1 / your focal length.", 0.06, "H"],
+  ["Fifty millimeter lens: one fiftieth.", "50mm lens: 1/50 s.", 0.22, "H"],
+  ["Slow down enough, and anything moving disappears.", null, 0.05, "I"],
+  ["Like the car in this photo.", null, 0.0, "I"]
+ ],
+ "youtube": {
+  "title": "This Photo Has a Car in It. You Can't See It.",
+  "description": "Same street, same 50 km/h car (13.9 m/s), three shutter speeds:\n1/1000 s → it moves 1.4 cm: frozen.\n1/15 s → it moves ~0.93 m: a streak.\n15 s → it drives ~208 m, so each point on its path sees the 4 m car for under 2% of the exposure: it disappears.\nWater does the same: exposures longer than about half a second turn running water into a white, fog-like sheet.\nThe catch: 15 s is 15,000× the light of 1/1000 s (~14 stops), so you stop down or use an ND filter. Handheld rule of thumb: shutter speed ≈ 1/focal length (50mm → 1/50 s).\nEvery frame is a real simulation: the camera averages thousands of sub-frames over the exposure.\nSources: Wikipedia \"Shutter speed\"; cameraby.com shutter-speed guide.\n#photography #camera #shorts",
+  "tags": ["photography", "shutter speed", "long exposure", "motion blur", "nd filter", "photography tips", "camera settings"],
+  "pinned_comment": "What's the longest exposure you've ever shot, and what disappeared? 👇"
+ },
+ "tiktok_text": "This photo has a car in it. You can't see it 🚗💨 15 s exposure = the car is in each spot for under 2% of the time, so it vanishes. Real simulation. #photography #camera #photographytips #learnontiktok #longexposure",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Shutter_speed",
+  "https://cameraby.com/en/learn/shutter-speed"
+ ]
+}
