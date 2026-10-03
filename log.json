@@ -47,6 +47,8 @@
   "status": "scheduled",
   "slot": "B",
   "scheduled_at": "2026-10-03T14:00+01:00",
-  "voice_sid": 5
+  "voice_sid": 5,
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-6329890119688499657",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=1037524756966756332"
  }
 ]
