@@ -1,0 +1,42 @@
+{
+ "slug": "2026-10-03-night-mode-stacking",
+ "format": "explainer",
+ "style": "poster-editorial",
+ "topic": "Phone night mode: many short frames, aligned and averaged; random noise falls with the square root of the frame count (real numpy simulation: 1 vs 4 vs 16 frames vs one shaky long exposure)",
+ "voice_sid": 3,
+ "tone": "curious",
+ "speed": 1.08,
+ "chords": ["Em", "C", "G", "D"],
+ "bpm": 92,
+ "hits": [["A", "fifteen"], ["F", "half"], ["G", "quarter"]],
+ "cta": "FOLLOW · HOW CAMERAS REALLY WORK",
+ "lines": [
+  ["Your night photo isn't one photo.", null, 0.1, "A"],
+  ["It can be fifteen.", "It can be 15.", 0.3, "A"],
+  ["So why not just keep the shutter open longer?", null, 0.25, "B"],
+  ["Because your hands shake. One long exposure smears into blur.", null, 0.25, "C"],
+  ["Short frames stay sharp... but each one is full of noise.", null, 0.25, "D"],
+  ["Here's the trick. Noise is random. The scene isn't.", null, 0.25, "E"],
+  ["Average four frames, and the noise drops to half.", "Average 4 frames, and the noise drops to half.", 0.25, "F"],
+  ["Sixteen frames? Down to a quarter.", "16 frames? Down to a quarter.", 0.25, "G"],
+  ["Noise falls with the square root of the number of frames.", null, 0.25, "H"],
+  ["But wait... didn't your hand move between frames?", null, 0.1, "I"],
+  ["Yes. So the phone aligns them first, and rejects the parts that don't match.", null, 0.25, "I"],
+  ["Google's Night Sight takes up to fifteen frames, up to a third of a second each, handheld.", "Google's Night Sight takes up to 15 frames, up to 1/3 second each, handheld.", 0.2, "J"],
+  ["So when your phone says hold still... it's because", null, 0.0, "J"]
+ ],
+ "youtube": {
+  "title": "Your Night Photo Isn't One Photo (Real Noise Simulation)",
+  "description": "Phone night modes capture a burst of short frames instead of one long exposure. Each short frame stays sharp but is noisy; because photon shot noise and read noise are random, averaging N aligned frames cuts the noise by the square root of N: 4 frames give half the noise, 16 frames a quarter. A long single exposure would collect the same light, but hand shake smears it into blur. Google's Night Sight (Pixel) captures up to 15 frames of up to 1/3 s each when handheld (up to 1 s each on a tripod), then aligns and merges them, rejecting pieces that don't match.\nEvery image here is a real numpy simulation (Poisson shot noise + 3 e- read noise); the noise numbers on screen are measured from it.\nSources: Google Research blog \"Night Sight: Seeing in the Dark on Pixel Phones\" (2018); Liba et al., \"Handheld Mobile Photography in Very Low Light\" (SIGGRAPH Asia 2019); signal averaging (SNR grows with sqrt N).\n#photography #nightphotography #shorts",
+  "tags": ["photography", "night mode", "night sight", "smartphone photography", "image stacking", "noise", "computational photography", "low light photography"],
+  "pinned_comment": "Do you trust your phone's night mode, or do you still reach for a tripod? 👇"
+ },
+ "tiktok_text": "Your night photo isn't one photo 🌙 Your phone shoots a burst of short frames, aligns them and averages the noise away. 4 frames = half the noise, 16 = a quarter. Real simulation inside. #photography #camera #photographytips #learnontiktok #nightmode",
+ "sources": [
+  "https://research.google/blog/night-sight-seeing-in-the-dark-on-pixel-phones/",
+  "https://arxiv.org/abs/1910.11336",
+  "https://en.wikipedia.org/wiki/Signal_averaging",
+  "https://support.apple.com/102519"
+ ],
+ "status": "ready"
+}

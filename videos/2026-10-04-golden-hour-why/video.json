@@ -1,0 +1,42 @@
+{
+ "slug": "2026-10-04-golden-hour-why",
+ "format": "why",
+ "style": "poster-editorial",
+ "topic": "Why golden hour is golden: Rayleigh scattering (1/λ⁴) × air mass (≈38 at the horizon) strips the blue from the direct sunbeam; low sun = long shadows, side light, more sky light",
+ "voice_sid": 7,
+ "tone": "calm-explainer",
+ "speed": 1.0,
+ "chords": ["C", "Em", "F", "G"],
+ "bpm": 90,
+ "hits": [["A", "leftovers"], ["D", "38"], ["G", "quarter"]],
+ "cta": "FOLLOW · THE WHY OF LIGHT",
+ "lines": [
+  ["Golden hour light is leftovers.", null, 0.15, "A"],
+  ["Here's what the air took.", null, 0.25, "A"],
+  ["Air molecules scatter short wavelengths far more than long ones. One over wavelength, to the fourth.", "Air molecules scatter short wavelengths far more than long ones. 1 / λ⁴.", 0.2, "B"],
+  ["So blue, at four hundred fifty nanometres, scatters about six times more than red, at seven hundred.", "So blue, at 450 nm, scatters about 6× more than red, at 700.", 0.2, "C"],
+  ["With the sun overhead, light crosses one thickness of air. At the horizon, about thirty-eight.", "With the sun overhead, light crosses 1 thickness of air. At the horizon, about 38.", 0.2, "D"],
+  ["So we simulated it. Sunlight, minus that scattering, at four sun heights.", "So we simulated it. Sunlight, minus that scattering, at 4 sun heights.", 0.15, "E"],
+  ["Sixty degrees: almost white. Fifteen: warmer. Five: golden. Zero: deep orange.", "60°: almost white. 15°: warmer. 5°: golden. 0°: deep orange.", 0.2, "F"],
+  ["At the horizon, fewer than one in a thousand blue photons get through. About a quarter of the red does.", "At the horizon, fewer than 1 in 1,000 blue photons get through. About a quarter of the red does.", 0.2, "G"],
+  ["Low sun also means side light, and long shadows. At five degrees, your shadow is eleven times your height.", "Low sun also means side light, and long shadows. At 5°, your shadow is 11× your height.", 0.2, "H"],
+  ["Nothing is added to the light.", null, 0.15, "I"],
+  ["The air keeps the blue. What reaches you...", null, 0.0, "J"]
+ ],
+ "youtube": {
+  "title": "Golden Hour Light Is Leftovers (Here's the Physics)",
+  "description": "Why golden hour is golden: air molecules scatter light roughly as 1/λ⁴ (Rayleigh scattering), so blue at 450 nm scatters about 6× more than red at 700 nm (Rayleigh optical depth at sea level: 0.221 vs 0.036, Bodhaine et al. 1999). With the sun overhead, sunlight crosses one 'air mass'; at the horizon it crosses about 38 (Kasten & Young 1989). Our numpy simulation (a ~5,800 K sunlight spectrum × exp(−τ·air mass), clean air, molecules only) gives: 60° almost white, 15° warm, 5° golden, 0° deep orange. At the horizon fewer than 1 in 1,000 blue photons survive the direct beam, versus about a quarter of the red. A low sun also gives side light, long shadows (11× your height at 5°) and more soft light from the sky.\nSources: Wikipedia (Rayleigh scattering, Air mass, Golden hour), Bodhaine et al. 1999 'On Rayleigh Optical Depth Calculations'.\n#photography #goldenhour #shorts",
+  "tags": ["photography", "golden hour", "rayleigh scattering", "sunset", "light", "photography tips", "landscape photography", "why is the sunset orange"],
+  "pinned_comment": "Do you shoot golden hour at sunrise or sunset? And which one looks warmer to you? 👇"
+ },
+ "tiktok_text": "Golden hour light is literally leftovers 🌅 The air scatters the blue out of the sunbeam, and near the horizon light crosses ~38× more air. We simulated it. #photography #camera #photographytips #learnontiktok #goldenhour",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+  "https://en.wikipedia.org/wiki/Air_mass_(astronomy)",
+  "https://en.wikipedia.org/wiki/Golden_hour_(photography)",
+  "https://doi.org/10.1175/1520-0426(1999)016%3C1854:ORODC%3E2.0.CO;2",
+  "https://reef.atmos.colostate.edu/~odell/at721/resources/rayleighOpticalDepth.pdf",
+  "https://en.wikipedia.org/wiki/Sun"
+ ],
+ "status": "ready"
+}

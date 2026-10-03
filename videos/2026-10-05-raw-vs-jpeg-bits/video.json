@@ -1,0 +1,127 @@
+{
+ "slug": "2026-10-05-raw-vs-jpeg-bits",
+ "format": "data",
+ "style": "glass-editorial",
+ "topic": "RAW vs JPEG bit depth: 8-bit JPEG = 256 levels per channel, 14-bit RAW = 16,384 (64x); JPEG bakes in WB + tone curve; pushing shadows +4 stops makes the JPEG band (real numpy simulation, histogram combing)",
+ "voice_sid": 1,
+ "tone": "punchy",
+ "speed": 1.08,
+ "chords": [
+  "Em",
+  "C",
+  "G",
+  "D"
+ ],
+ "bpm": 104,
+ "hits": [
+  [
+   "A",
+   "256"
+  ],
+  [
+   "I",
+   "comb"
+  ]
+ ],
+ "cta": "FOLLOW FOR MORE CAMERA DATA",
+ "lines": [
+  [
+   "Your JPEG has two hundred fifty-six shades.",
+   "Your JPEG has 256 shades.",
+   0.1,
+   "A"
+  ],
+  [
+   "A fourteen-bit RAW has sixteen thousand, three hundred eighty-four.",
+   "A 14-bit RAW has 16,384.",
+   0.15,
+   "B"
+  ],
+  [
+   "Per colour channel, that's sixty-four times more.",
+   "Per colour channel, that's 64× more.",
+   0.05,
+   "C"
+  ],
+  [
+   "Two to the eighth, versus two to the fourteenth.",
+   "2⁸ versus 2¹⁴.",
+   0.15,
+   "C"
+  ],
+  [
+   "Across red, green and blue: sixteen point seven million colours, versus about four point four trillion.",
+   "Across red, green and blue: 16.7 million colours, versus about 4.4 trillion.",
+   0.15,
+   "D"
+  ],
+  [
+   "A JPEG also bakes in white balance and the tone curve. RAW keeps the sensor data.",
+   null,
+   0.15,
+   "E"
+  ],
+  [
+   "Why care? Take a dark sunset sky, four stops under.",
+   "Why care? Take a dark sunset sky, 4 stops under.",
+   0.08,
+   "F"
+  ],
+  [
+   "Now push the shadows up four stops.",
+   "Now push the shadows up 4 stops.",
+   0.15,
+   "G"
+  ],
+  [
+   "In this simulation, the JPEG sky had twenty-four shades of green. The RAW had a hundred and ninety.",
+   "In this simulation, the JPEG sky had 24 shades of green. The RAW had 190.",
+   0.08,
+   "H"
+  ],
+  [
+   "Stretched sixteen times, the JPEG breaks into bands.",
+   "Stretched 16×, the JPEG breaks into bands.",
+   0.15,
+   "H"
+  ],
+  [
+   "Its histogram turns into a comb: two out of three values, empty. The RAW stays smooth.",
+   "Its histogram turns into a comb: 2 out of 3 values, empty. The RAW stays smooth.",
+   0.15,
+   "I"
+  ],
+  [
+   "RAW is typically twelve or fourteen bits. If you edit hard, shoot it. Because...",
+   "RAW is typically 12 or 14 bits. If you edit hard, shoot it. Because...",
+   0.0,
+   "J"
+  ]
+ ],
+ "youtube": {
+  "title": "Your JPEG Has 256 Shades. A 14-bit RAW Has 16,384.",
+  "description": "An 8-bit JPEG stores 2^8 = 256 levels per colour channel; a 14-bit RAW stores 2^14 = 16,384 — 64× more per channel (256³ ≈ 16.7 million vs 16,384³ ≈ 4.4 trillion possible RGB values). Many cameras record RAW at 12 or 14 bits (e.g. Nikon lets you pick either). A JPEG also has the camera's white balance and tone curve applied; RAW stores the sensor data and keeps those settings for later.\n\nWhy it matters: we simulated (numpy, no compression) a dark sunset sky shot 4 stops under, stored once as 8-bit gamma-encoded JPEG data and once as 14-bit linear RAW data, then pushed both +4 stops. The JPEG sky had 24 green levels vs 190 for the RAW; stretched 16×, the JPEG bands and its histogram turns into a comb (50 of 74 values empty). The RAW stays smooth.\n\nSources: Wikipedia (Raw image format, JPEG), Cambridge in Colour (bit depth, posterization), Nikon Z 7 manual (12/14-bit NEF).\n#photography #rawvsjpeg #shorts",
+  "tags": [
+   "photography",
+   "raw vs jpeg",
+   "bit depth",
+   "14-bit raw",
+   "posterization",
+   "banding",
+   "photo editing",
+   "camera settings",
+   "photography tips"
+  ],
+  "pinned_comment": "Be honest: do you shoot RAW, JPEG, or RAW+JPEG? 👇"
+ },
+ "tiktok_text": "Your JPEG has 256 shades per channel. A 14-bit RAW has 16,384 😳 Push a dark sunset +4 stops and the JPEG falls apart into bands. #photography #camera #photographytips #learnontiktok #rawvsjpeg",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Raw_image_format",
+  "https://en.wikipedia.org/wiki/JPEG",
+  "https://www.cambridgeincolour.com/tutorials/bit-depth.htm",
+  "https://www.cambridgeincolour.com/tutorials/posterization.htm",
+  "https://onlinemanual.nikonimglib.com/z7/en/09_menu_guide_03_07.html",
+  "Own numpy simulation: videos/2026-10-05-raw-vs-jpeg-bits/gen_images.py (img/stats.json)"
+ ],
+ "status": "ready"
+}

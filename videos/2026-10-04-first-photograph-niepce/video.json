@@ -1,0 +1,43 @@
+{
+ "slug": "2026-10-04-first-photograph-niepce",
+ "format": "history",
+ "style": "glass-editorial",
+ "tone": "storyteller",
+ "topic": "The oldest surviving camera photograph: Niépce's View from the Window at Le Gras (c. 1827), bitumen on pewter, exposure of ~8 hours or several days (debated) — a simulated long exposure shows why both sides of the buildings are lit",
+ "voice_sid": 9,
+ "speed": 1.03,
+ "chords": ["F", "Am", "Dm", "C"],
+ "bpm": 88,
+ "hits": [["A", "days"], ["G", "230"]],
+ "cta": "FOLLOW FOR PHOTO HISTORY",
+ "lines": [
+  ["This photo took days to take.", null, 0.3, "A"],
+  ["Around eighteen twenty-seven, Nee-say-for Nee-eps aimed a camera out of his window in France.", "Around 1827, Nicéphore Niépce aimed a camera out of his window in France.", 0.22, "B"],
+  ["No film. Just a pewter plate, coated in bitumen, a natural asphalt.", null, 0.2, "C"],
+  ["Where light hit, the bitumen hardened. The rest washed off with lavender oil.", null, 0.22, "D"],
+  ["The catch? It was painfully slow.", null, 0.12, "E"],
+  ["The classic estimate is eight hours.", "The classic estimate is 8 hours.", 0.22, "E"],
+  ["But a researcher who recreated his process concluded: several days.", null, 0.28, "F"],
+  ["A modern shutter can fire at one eight-thousandth of a second.", "A modern shutter can fire at 1/8000 of a second.", 0.12, "G"],
+  ["Eight hours is about two hundred and thirty million times longer.", "8 hours is about 230 million times longer.", 0.25, "G"],
+  ["And that long wait left a clue.", null, 0.12, "H"],
+  ["As the sun crossed the sky, it lit one side of the buildings... then the other.", null, 0.22, "H"],
+  ["So in the oldest surviving camera photo, both sides glow at once.", null, 0.15, "I"],
+  ["No single moment ever looked like that... because", null, 0.0, "J"]
+ ],
+ "youtube": {
+  "title": "This Photo Took Days to Take (The Oldest Camera Photo)",
+  "description": "The oldest surviving photograph made with a camera: Nicéphore Niépce's \"View from the Window at Le Gras\", c. 1827, made at his estate in Saint-Loup-de-Varennes, France. It is a pewter plate thinly coated with bitumen of Judea (a natural asphalt): bitumen hardens where light hits it, and the unhardened parts were washed away with oil of lavender and white petroleum.\n\nHow long was the exposure? The traditional estimate is about 8 hours; a modern researcher who recreated Niépce's process concluded it must have lasted several days — historians still differ. Either way, 8 hours = 28,800 s, about 230 million times longer than a 1/8000 s shutter.\n\nThe clue: sunlight hits the buildings on opposite sides, because the sun moved across the sky while the plate was exposed. The courtyard in this Short is our own numpy simulation (not the real photo): one instant lights one side, the whole day lights both.\n\nSources: Harry Ransom Center (University of Texas at Austin), which holds the heliograph; Wikipedia (View from the Window at Le Gras; Heliography; Shutter speed); Smarthistory.\n#photography #photohistory #shorts",
+  "tags": ["photography", "history of photography", "first photograph", "Niépce", "View from the Window at Le Gras", "long exposure", "heliography", "oldest photo"],
+  "pinned_comment": "Would you have had the patience to wait days for ONE photo? What's the longest exposure you've ever shot? 👇"
+ },
+ "tiktok_text": "This photo took DAYS to take ⏳ The oldest surviving camera photo (Niépce, c. 1827) was exposed so long the sun lit both sides of the buildings. #photography #camera #photographytips #learnontiktok #photohistory",
+ "sources": [
+  "https://www.hrc.utexas.edu/niepce-heliograph/",
+  "https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras",
+  "https://en.wikipedia.org/wiki/Heliography",
+  "https://smarthistory.org/joseph-nicephore-niepce-view-from-the-window-at-le-gras",
+  "https://en.wikipedia.org/wiki/Shutter_speed"
+ ],
+ "status": "ready"
+}

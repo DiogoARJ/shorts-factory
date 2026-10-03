@@ -1,0 +1,143 @@
+{
+ "slug": "2026-10-04-crop-sensor-zoom-myth",
+ "format": "myth",
+ "style": "impact",
+ "topic": "Myth: crop sensors give you more zoom / reach. Same lens = same image; a smaller sensor only records the middle. Real reach = pixels on subject (pixel density).",
+ "voice_sid": 6,
+ "tone": "punchy",
+ "speed": 1.1,
+ "chords": [
+  "Am",
+  "Dm",
+  "E",
+  "Am"
+ ],
+ "bpm": 108,
+ "hits": [
+  [
+   "A",
+   "zooming"
+  ],
+  [
+   "I",
+   "reach"
+  ]
+ ],
+ "cta": "FOLLOW FOR MORE CAMERA MYTHS",
+ "lines": [
+  [
+   "Your crop sensor isn't zooming in.",
+   null,
+   0.35,
+   "A"
+  ],
+  [
+   "Same lens, same projected image, on any camera.",
+   null,
+   0.1,
+   "B"
+  ],
+  [
+   "Full frame records thirty-six by twenty-four millimeters.",
+   "Full frame records 36 × 24 mm.",
+   0.2,
+   "B"
+  ],
+  [
+   "A P S C is smaller. It just records the middle.",
+   "APS-C is smaller. It just records the middle.",
+   0.2,
+   "C"
+  ],
+  [
+   "Crop factor: one point five on Nikon, Sony and Fuji.",
+   "Crop factor: 1.5 on Nikon, Sony and Fuji.",
+   0.05,
+   "D"
+  ],
+  [
+   "One point six on Canon. Two on Micro Four Thirds.",
+   "1.6 on Canon. 2 on Micro Four Thirds.",
+   0.2,
+   "D"
+  ],
+  [
+   "So a fifty millimeter lens frames like a seventy-five.",
+   "So a 50 mm lens frames like a 75.",
+   0.08,
+   "E"
+  ],
+  [
+   "Same view. Zero magnification.",
+   null,
+   0.2,
+   "E"
+  ],
+  [
+   "Real simulation. Crop the full frame shot to the A P S C area...",
+   "Real simulation. Crop the full frame shot to the APS-C area...",
+   0.05,
+   "F"
+  ],
+  [
+   "identical.",
+   null,
+   0.2,
+   "F"
+  ],
+  [
+   "Same bird. Same size on the sensor.",
+   null,
+   0.2,
+   "G"
+  ],
+  [
+   "The difference is pixels. Crop a twenty-four megapixel full frame, and only about ten are left.",
+   "The difference is pixels. Crop a 24 megapixel full frame, and only about 10 are left.",
+   0.2,
+   "H"
+  ],
+  [
+   "A twenty-four megapixel A P S C puts all twenty-four right there.",
+   "A 24 megapixel APS-C puts all 24 right there.",
+   0.05,
+   "I"
+  ],
+  [
+   "Over twice the pixels on the bird. That's real reach.",
+   null,
+   0.25,
+   "I"
+  ],
+  [
+   "Pixel density. Not zoom. So no...",
+   null,
+   0.0,
+   "J"
+  ]
+ ],
+ "youtube": {
+  "title": "Your Crop Sensor Isn't Zooming In (Crop Factor Myth)",
+  "description": "A crop sensor doesn't magnify anything. A lens projects the same image no matter which camera is behind it; a smaller sensor just records a smaller central part of it.\nCrop factors: ~1.5x for Nikon DX, Sony and Fujifilm APS-C (23.5 x 15.6 mm), 1.6x for Canon APS-C (22.3 x 14.9 mm), 2x for Micro Four Thirds, vs 36 x 24 mm full frame. So a 50 mm lens on APS-C gives the field of view of a ~75 mm lens (~80 mm on Canon) on full frame - same focal length, no extra magnification.\nThe only real 'reach' is pixels on the subject: cropping a 24 MP full-frame image to the APS-C area leaves about 24/1.5^2 = 10.7 MP (9.4 MP at 1.6x), while a 24 MP APS-C sensor puts all 24 MP there (~2.25x the pixels on the bird). The visuals are a real numpy simulation: one analytic lens image sampled by both sensors at their real pixel pitches (6.0 um vs 3.9 um).\nSources: Wikipedia 'Crop factor' and 'APS-C'; Roger Clark, clarkvision.com 'Crop factor and telephoto reach'; J. Polak, 'The mathematics of reach'.\n#photography #camerasensor #shorts",
+  "tags": [
+   "photography",
+   "crop factor",
+   "crop sensor",
+   "APS-C",
+   "full frame",
+   "focal length",
+   "bird photography",
+   "camera myths",
+   "photography tips"
+  ],
+  "pinned_comment": "Be honest: did you buy (or keep) a crop body for the \"extra reach\"? Full frame or APS-C - which do you shoot? 👇"
+ },
+ "tiktok_text": "Your crop sensor isn't zooming in 🔍 Same lens = same image. APS-C just records the middle, so 50mm frames like ~75mm. Real 'reach' = more pixels on the bird, not magnification. #photography #camera #photographytips #learnontiktok #cropfactor",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Crop_factor",
+  "https://en.wikipedia.org/wiki/APS-C",
+  "https://clarkvision.com/articles/cropfactor/",
+  "https://jpolak.org/photo/the-mathematics-of-reach/"
+ ],
+ "status": "ready"
+}
