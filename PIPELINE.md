@@ -40,11 +40,30 @@ cd /home/claude/shorts-factory && bash engine/setup.sh      # TTS model, gsap, f
   `punchy` (short sentences, myth-busting), `calm-explainer` (slower, speed ~1.0), `storyteller` (history/anecdote).
   Store `voice_sid` and `tone` in the log entry. If a voice mispronounces a key word in a test, respell it in `say`.
 
-## 1b. Diogo's personal clip (slot C) — STARTING
-**RESERVED: 2026-10-04 slot C (18:00) is reserved for Diogo's own talking clip, edited in the main session.** The slot C run on
-2026-10-04 must NOT produce anything: stop and report "slot C reservado para o vídeo do Diogo".
-Delivery method for later days is still being decided (PC folder via the desktop bridge); until this section says ACTIVE,
-slot C on other days stays educational.
+## 1b. Diogo's brand formats — his face and voice (slot C)
+Diogo's brand for Shorts is a MIX of three formats (his decision, 2026-10-03). He records ONE clip per day.
+| format | what | who records |
+|---|---|---|
+| `talking` | Diogo talks to camera (story, opinion, behind the scenes); we cut, caption, punch-in, add b-roll from his archive (e.g. `E:\Eclipse 26`) and music | Diogo, free speech from 3 bullet points |
+| `voiceover` | our motion-graphics explainer (any of the 3 styles) narrated by DIOGO's recorded voice instead of Kokoro; his face appears in a circle bubble (lower-left, ~300 px, cream ring) at key moments and full-screen for the hook and the ending | Diogo reads OUR script once to camera (vertical phone); the same take gives voice + face |
+| `synthetic` | the current format, Kokoro voice | nobody (fills the other slots) |
+- Default split: slot C = Diogo's format (alternate `talking` / `voiceover`), slots A and B = `synthetic`.
+- Language of his recordings: pt-PT for `talking` (burned-in ENGLISH captions translated from what he says);
+  for `voiceover` scripts ask/obey the latest decision in log notes (default until he decides: English script). Never
+  change his words' meaning in captions; keep translations faithful.
+- **The day before**, the slot C run's final report gives Diogo tomorrow's assignment: format, topic, and either 3
+  bullet points (`talking`) or the full ~110-word script (`voiceover`), plus recording tips (vertical, eye level, window
+  light, quiet room/lavalier, 2-3 takes).
+- **Delivery (current):** Diogo attaches the clip in his main chat session; the main session edits and schedules it.
+  Planned: a PC folder read via the desktop bridge (needs his PC on). Until that is ACTIVE, the slot C run checks
+  Metricool first (a post already in the slot = done); if the slot is empty it produces a `synthetic` Short.
+- Editing rules for his footage: follow the `short-motion-captions` skill (keep his cuts, hook first, caption chunks,
+  punch-ins, ducked music bed, his voice untouched at -14 LUFS). For `voiceover`: replace voice.wav with his cleaned
+  audio and derive word timings from the known script spread over the detected speech regions (as voice.py does).
+- **RESERVED: 2026-10-04 slot C (18:00) = Diogo's eclipse `talking` clip, edited in the main session.** The slot C run
+  on 2026-10-04 must NOT produce anything: stop and report "slot C reservado para o vídeo do Diogo".
+- YouTube/TikTok flags for his formats: `isAiGeneratedContent` false (real person, real voice); TikTok `isAigc` false
+  for `talking`, true for `voiceover` only if any synthetic voice remains.
 
 ## 2. Research (mandatory)
 - Verify every number, date, name and claim with WebSearch/WebFetch (primary or reputable sources). No claim without a
