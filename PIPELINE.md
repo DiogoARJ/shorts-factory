@@ -64,7 +64,8 @@ Diogo's brand for Shorts is a MIX of three formats (his decision, 2026-10-03). H
   format; brief in `videos/2026-10-06-r8-swap-tierlist/brief.md`), recorded by him on 2026-10-05 and edited in the
   main session.** The slot C run on 2026-10-06 must NOT produce anything: stop and report "slot C reservado para o
   vídeo do Diogo". The 2026-10-05 slot C report must NOT give a new assignment (this one is already given).
-  (2026-10-04 slot C was left empty on Diogo's decision.)
+  (2026-10-04 slot C: golden-hour Short moved there from Mon 18:00 on Diogo's request; Mon 2026-10-05 slot C is now
+  free, so the 2026-10-05 slot C run produces a normal `synthetic` Short.)
 - YouTube/TikTok flags for his formats: `isAiGeneratedContent` false (real person, real voice); TikTok `isAigc` false
   for `talking`, true for `voiceover` only if any synthetic voice remains.
 
