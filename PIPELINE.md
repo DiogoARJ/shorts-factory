@@ -60,8 +60,11 @@ Diogo's brand for Shorts is a MIX of three formats (his decision, 2026-10-03). H
 - Editing rules for his footage: follow the `short-motion-captions` skill (keep his cuts, hook first, caption chunks,
   punch-ins, ducked music bed, his voice untouched at -14 LUFS). For `voiceover`: replace voice.wav with his cleaned
   audio and derive word timings from the known script spread over the detected speech regions (as voice.py does).
-- **RESERVED: 2026-10-04 slot C (18:00) = Diogo's eclipse `talking` clip, edited in the main session.** The slot C run
-  on 2026-10-04 must NOT produce anything: stop and report "slot C reservado para o vídeo do Diogo".
+- **RESERVED: 2026-10-06 slot C (18:00) = Diogo's `talking` clip "Cameras I'd swap my Canon R8 for" (tier-list
+  format; brief in `videos/2026-10-06-r8-swap-tierlist/brief.md`), recorded by him on 2026-10-05 and edited in the
+  main session.** The slot C run on 2026-10-06 must NOT produce anything: stop and report "slot C reservado para o
+  vídeo do Diogo". The 2026-10-05 slot C report must NOT give a new assignment (this one is already given).
+  (2026-10-04 slot C was left empty on Diogo's decision.)
 - YouTube/TikTok flags for his formats: `isAiGeneratedContent` false (real person, real voice); TikTok `isAigc` false
   for `talking`, true for `voiceover` only if any synthetic voice remains.
 
