@@ -141,5 +141,22 @@
   "duration_s": 37.2,
   "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-1232206411867469945",
   "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-6788819889215224045"
+ },
+ {
+  "date": "2026-10-05",
+  "slug": "2026-10-05-rolling-shutter-propeller",
+  "format": "explainer",
+  "style": "poster-editorial",
+  "tone": "calm-explainer",
+  "voice_sid": 9,
+  "title": "This Propeller Isn't Bent. Your Camera Is. (Rolling Shutter)",
+  "status": "scheduled",
+  "slot": "C",
+  "scheduled_at": "2026-10-05T18:00+01:00",
+  "batch": "2026-10-05 slot C run",
+  "duration_s": 50.3,
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-6896247434963431804",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-264373240739312695",
+  "notes": "Backlog #7 (ISO shot noise) skipped today: slot B megapixel Short already used the same shot-noise simulation; took #8 instead."
  }
 ]
