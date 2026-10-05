@@ -125,5 +125,21 @@
   "batch": "2026-10-03 manual batch",
   "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-2907751812178293171",
   "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=3377715817832664404"
+ },
+ {
+  "date": "2026-10-05",
+  "slug": "2026-10-05-megapixel-myth",
+  "format": "myth",
+  "style": "impact",
+  "tone": "curious",
+  "voice_sid": 3,
+  "title": "Which Photo Is 48 Megapixels? (The Megapixel Myth)",
+  "status": "scheduled",
+  "slot": "B",
+  "scheduled_at": "2026-10-05T14:00+01:00",
+  "batch": "2026-10-05 slot B run",
+  "duration_s": 37.2,
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-1232206411867469945",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-6788819889215224045"
  }
 ]
