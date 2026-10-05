@@ -8,7 +8,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 5. ~~[myth] "Telephoto lenses compress the background" — camera distance, not focal length; same framing demo.~~ (2026-10-03 draft, poster style, awaiting Diogo — do NOT redo)
 6. [data] Your eye vs your sensor: dynamic range in stops (eye ~ vs sensor ~14), why skies blow out.
 7. [before-after] ISO 100 vs 6400 — photon shot noise simulation (noise ∝ √signal).
-8. [explainer] Rolling shutter jello — line-by-line readout simulation on a spinning propeller.
+8. ~~[explainer] Rolling shutter jello — line-by-line readout simulation on a spinning propeller.~~ (2026-10-05 slot C, poster-editorial; Nikon Z readouts + Sony a9 III global shutter)
 9. [why] Why bokeh balls are round, polygons or cat-eyes — aperture blades + vignetting.
 10. ~~[myth] "Crop sensors give you more zoom" — it's a crop of the same image.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 14:00 slot B — do NOT pick)
 11. ~~[data] RAW vs JPEG: 14-bit = 16,384 levels vs 8-bit = 256 per channel; banding demo.~~ (RESERVED 2026-10-03 batch for Mon 5 Oct 10:00 slot A — do NOT pick)

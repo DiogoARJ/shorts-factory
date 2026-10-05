@@ -1,0 +1,118 @@
+{
+ "slug": "2026-10-05-rolling-shutter-propeller",
+ "format": "explainer",
+ "style": "poster-editorial",
+ "topic": "Rolling shutter: sensors read row by row (Nikon Z7 e-shutter ~66 ms vs Z9 3.7 ms); a simulated 4-blade propeller at 1,500 RPM bends into curved petals; global shutter (Sony a9 III, 2023) reads every pixel at once",
+ "voice_sid": 9,
+ "tone": "calm-explainer",
+ "speed": 1.0,
+ "chords": [
+  "Am",
+  "F",
+  "C",
+  "G"
+ ],
+ "bpm": 96,
+ "hits": [
+  [
+   "A",
+   "bent"
+  ],
+  [
+   "E",
+   "half"
+  ],
+  [
+   "H",
+   "once"
+  ]
+ ],
+ "cta": "FOLLOW · HOW CAMERAS SEE",
+ "lines": [
+  [
+   "This propeller isn't bent.",
+   null,
+   0.15,
+   "A"
+  ],
+  [
+   "Your camera drew it that way.",
+   null,
+   0.25,
+   "A"
+  ],
+  [
+   "Most sensors don't capture a photo all at once. They read it row by row, top to bottom.",
+   null,
+   0.2,
+   "B"
+  ],
+  [
+   "On a Nikon Zed seven's electronic shutter, a full read takes about sixty-six milliseconds. A Zed nine: under four.",
+   "On a Nikon Z7's electronic shutter, a full read takes about 66 ms. A Z9: under 4.",
+   0.2,
+   "C"
+  ],
+  [
+   "We simulated it. A four-blade propeller at fifteen hundred R P M, read over sixty-six milliseconds.",
+   "We simulated it. A 4-blade propeller at 1,500 RPM, read over 66 ms.",
+   0.15,
+   "D"
+  ],
+  [
+   "During the read, it turns more than one and a half times. Each row catches the blades somewhere else.",
+   "During the read, it turns more than 1.5 times. Each row catches the blades somewhere else.",
+   0.2,
+   "E"
+  ],
+  [
+   "Stack the rows, and straight blades become curved, floating petals.",
+   null,
+   0.2,
+   "F"
+  ],
+  [
+   "Read in under four milliseconds, and the bend shrinks to a slight curve.",
+   "Read in under 4 ms, and the bend shrinks to a slight curve.",
+   0.2,
+   "G"
+  ],
+  [
+   "A global shutter reads every pixel at once. Sony's Alpha nine three, from twenty twenty-three, was the first full-frame camera with one.",
+   "A global shutter reads every pixel at once. Sony's a9 III, from 2023, was the first full-frame camera with one.",
+   0.2,
+   "H"
+  ],
+  [
+   "So next time a propeller looks melted, remember:",
+   null,
+   0.0,
+   "I"
+  ]
+ ],
+ "youtube": {
+  "title": "This Propeller Isn't Bent. Your Camera Is. (Rolling Shutter)",
+  "description": "Most camera sensors don't capture a frame all at once: a rolling shutter reads the sensor row by row, top to bottom. Measured electronic-shutter readout times: Nikon Z7/Z7 II ~66 ms, Z6/Z6 II ~51 ms, Z50 ~25 ms, Z6III ~14 ms, Z8/Z9 3.7 ms (zsystemuser.com). Our numpy simulation: a 4-blade propeller at 1,500 RPM (25 turns per second) read over 66 ms turns about 1.65 times during the read, so every row sees the blades at a different angle and straight blades turn into curved, detached 'petals'. Read in 3.7 ms it turns only ~33°, so the bend shrinks to a slight curve. A global shutter exposes and reads all pixels at the same time; Sony's a9 III (announced November 2023) was the first full-frame camera with a global shutter sensor.\nSources: Wikipedia 'Rolling shutter'; zsystemuser.com 'Sensor Read-Out Speeds'; Sony a9 III press release (Nov 7, 2023).\n#photography #rollingshutter #shorts",
+  "tags": [
+   "photography",
+   "rolling shutter",
+   "global shutter",
+   "electronic shutter",
+   "propeller",
+   "camera sensor",
+   "sony a9 iii",
+   "nikon z9",
+   "photography tips",
+   "how cameras work"
+  ],
+  "pinned_comment": "Have you ever caught rolling shutter in your own photos? Propeller, golf swing, flickering lights? 👇"
+ },
+ "tiktok_text": "This propeller isn't bent, your camera is 😵 Most sensors read the picture row by row, so a spinning propeller turns into curved petals. We simulated it. #photography #camera #photographytips #learnontiktok #rollingshutter",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rolling_shutter",
+  "https://zsystemuser.com/z-mount-cameras/z-camera-articles/sensor-read-out-speeds.html",
+  "https://www.nasdaq.com/press-release/sony-electronics-releases-the-alpha-9-iii-the-worlds-first-full-frame-camera-with-a",
+  "https://petapixel.com/2014/10/13/math-behind-rolling-shutter-phenomenon/"
+ ],
+ "status": "ready"
+}
