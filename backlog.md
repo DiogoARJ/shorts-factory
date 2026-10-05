@@ -2,7 +2,7 @@
 Format tags: explainer | myth | before-after | why | data | history | from-long-video. NEEDS-DIOGO = his material, ask the day before.
 
 1. ~~[why] Why f-stops go 1.4, 2, 2.8, 4, 5.6 — area ∝ diameter², each stop = ×√2; animate circles halving area.~~ (2026-10-02 draft in glass-editorial style, awaiting Diogo — do NOT redo)
-2. [myth] "More megapixels = better photos" — pixel size, light per pixel, diffraction, viewing size; simulate.
+2. ~~[myth] "More megapixels = better photos" — pixel size, light per pixel, diffraction, viewing size; simulate.~~ (2026-10-05 slot B, impact style; viewing size + per-pixel vs normalised noise + crop/print; diffraction not used)
 3. ~~[before-after] Shutter speed 1/1000 vs 1/15 vs 1 s — simulated motion blur of a moving object.~~ (2026-10-03 slot B, impact style; used 15 s for the vanishing car)
 4. ~~[explainer] Phone night mode — stacking many frames, noise falls with √N; simulate 1 vs 4 vs 16 frames.~~ (RESERVED 2026-10-03 batch for Sat 3 Oct 18:00 slot C — do NOT pick)
 5. ~~[myth] "Telephoto lenses compress the background" — camera distance, not focal length; same framing demo.~~ (2026-10-03 draft, poster style, awaiting Diogo — do NOT redo)

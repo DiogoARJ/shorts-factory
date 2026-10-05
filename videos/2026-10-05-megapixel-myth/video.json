@@ -1,0 +1,125 @@
+{
+ "slug": "2026-10-05-megapixel-myth",
+ "format": "myth",
+ "style": "impact",
+ "topic": "Myth: more megapixels = better photos. At viewing size (phone, Instagram, 4K TV) 12 vs 48 MP look the same; smaller pixels are noisier per pixel but equal at the same output size; megapixels pay off only for heavy crops and big close-up prints.",
+ "voice_sid": 3,
+ "tone": "curious",
+ "speed": 1.05,
+ "chords": [
+  "F",
+  "C",
+  "Dm",
+  "Am"
+ ],
+ "bpm": 96,
+ "hits": [
+  [
+   "B",
+   "same"
+  ],
+  [
+   "G",
+   "averages"
+  ]
+ ],
+ "cta": "FOLLOW · CAMERA MYTHS, TESTED",
+ "lines": [
+  [
+   "Which one is forty-eight megapixels?",
+   "Which one is 48 megapixels?",
+   0.35,
+   "A"
+  ],
+  [
+   "Trick question. On a phone, they look the same.",
+   null,
+   0.25,
+   "B"
+  ],
+  [
+   "Instagram shows photos at most ten eighty pixels wide.",
+   "Instagram shows photos at most 1080 pixels wide.",
+   0.05,
+   "C"
+  ],
+  [
+   "That's under one and a half megapixels.",
+   "That's under 1.5 megapixels.",
+   0.2,
+   "C"
+  ],
+  [
+   "Even a 4K TV is only eight point three.",
+   "Even a 4K TV is only 8.3.",
+   0.6,
+   "D"
+  ],
+  [
+   "Real simulation. Same sensor, four times the pixels.",
+   null,
+   0.05,
+   "E"
+  ],
+  [
+   "Each pixel catches a quarter of the light...",
+   null,
+   0.05,
+   "E"
+  ],
+  [
+   "so up close, each one is twice as noisy.",
+   null,
+   0.2,
+   "F"
+  ],
+  [
+   "But shrink it to the same size, and the noise averages out.",
+   null,
+   0.25,
+   "G"
+  ],
+  [
+   "Megapixels win when you crop hard...",
+   null,
+   0.7,
+   "H"
+  ],
+  [
+   "or print big. Twenty by thirty inches, at three hundred pixels per inch, needs fifty-four megapixels.",
+   "or print big. 20 × 30 inches, at 300 pixels per inch, needs 54 megapixels.",
+   0.25,
+   "I"
+  ],
+  [
+   "Not cropping? Not printing? Then tell me...",
+   null,
+   0.0,
+   "J"
+  ]
+ ],
+ "youtube": {
+  "title": "Which Photo Is 48 Megapixels? (The Megapixel Myth)",
+  "description": "More megapixels don't make a better-looking photo at the size you actually view it. Instagram shows photos at most 1080 px wide (a 1080 x 1350 portrait is ~1.46 MP); a 4K UHD TV (3840 x 2160) is ~8.3 MP. A 12 MP and a 48 MP file look the same there.\nReal numpy simulation: one optical image, sampled by the same-size sensor at 12 MP-equivalent and 48 MP-equivalent (4x the pixels, each catching 1/4 of the light). Per pixel, the 48 MP version has half the signal-to-noise ratio (photon shot noise ~ sqrt(photons)): twice as noisy at 100%. Shrunk to the same output size, averaging 4 pixels recovers the same SNR as the big pixels.\nWhere megapixels do pay off: heavy cropping, and big prints viewed up close. 300 ppi is a common close-viewing print guideline: 20 x 30 in x 300 ppi = 6000 x 9000 px = 54 MP (big prints seen from further away need less).\nSources: Instagram Help Center (photo resolution); Wikipedia '4K resolution'; Fstoppers 'Pixel pitch: does camera pixel size actually matter?'; digifotostarter.nl '300 dpi: what does it mean for your photo?'.\n#photography #megapixels #shorts",
+  "tags": [
+   "photography",
+   "megapixels",
+   "camera myths",
+   "image quality",
+   "sensor noise",
+   "pixel size",
+   "photo printing",
+   "camera buying guide",
+   "photography tips"
+  ],
+  "pinned_comment": "Which one did you pick, left or right? And how many megapixels does your camera have? 👇"
+ },
+ "tiktok_text": "Which one is 48 megapixels? 🤔 On a phone you can't tell: Instagram shows max 1080 px wide. More MP only wins when you crop hard or print big. Real noise simulation inside. #photography #camera #photographytips #learnontiktok #megapixels",
+ "sources": [
+  "https://help.instagram.com/1631821640426723",
+  "https://en.wikipedia.org/wiki/4K_resolution",
+  "https://fstoppers.com/education/pixel-pitch-does-camera-pixel-size-actually-matter-903375",
+  "https://www.digifotostarter.nl/en/300-dpi-wat-betekent-het-voor-je-foto"
+ ],
+ "status": "ready"
+}
