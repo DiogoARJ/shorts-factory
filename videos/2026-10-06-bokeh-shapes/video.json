@@ -1,0 +1,40 @@
+{
+ "slug": "2026-10-06-bokeh-shapes",
+ "format": "why",
+ "style": "impact",
+ "topic": "Why bokeh balls are round, polygons or cat's eyes: each out-of-focus highlight is an image of the lens opening. Wide open = round; stopped down = blade polygon (7 vs 10 blades); off-axis wide open the barrel clips the opening into a cat's eye, which goes away when you stop down.",
+ "voice_sid": 6,
+ "tone": "curious",
+ "speed": 1.05,
+ "chords": ["Em", "C", "G", "D"],
+ "bpm": 104,
+ "hits": [["D", "sides"], ["G", "slices"]],
+ "cta": "FOLLOW · WHY CAMERAS DO THAT",
+ "lines": [
+  ["Same lens. Same lights. Why three different shapes?", "Same lens. Same lights. Why 3 different shapes?", 0.3, "A"],
+  ["Every blurry highlight is a tiny picture of your lens's opening: the aperture.", null, 0.2, "B"],
+  ["Wide open, that opening is round. So the balls are round.", null, 0.25, "C"],
+  ["Stop down to f eight, and the blades close in with straight edges.", "Stop down to f/8, and the blades close in with straight edges.", 0.05, "D"],
+  ["Seven blades? Seven sides.", "7 blades? 7 sides.", 0.3, "D"],
+  ["Ten blades? Almost a circle again.", "10 blades? Almost a circle again.", 0.4, "E"],
+  ["Now look at the edges of the frame.", null, 0.1, "F"],
+  ["Wide open, the lens barrel blocks part of the light...", null, 0.0, "F"],
+  ["and slices each circle into a cat's eye.", null, 0.4, "G"],
+  ["Stop down, and the smaller opening fits through again.", null, 0.1, "H"],
+  ["No more cat's eyes.", null, 0.4, "H"],
+  ["So your lens isn't just drawing the lights. It's drawing itself.", null, 0.0, "I"]
+ ],
+ "youtube": {
+  "title": "Same Lens, Three Bokeh Shapes. Here's Why.",
+  "description": "Every out-of-focus highlight (a 'bokeh ball') is a blurred image of the lens's opening, so its shape is the shape of the aperture.\nWide open, the iris blades are retracted and the opening is round, so the balls are round. Stopped down, out-of-focus points take the polygonal shape formed by the aperture blades: at f/8 a 7-blade lens draws distinctly polygonal shapes, while a 10-blade lens already resembles a circle (Canon). That's why lenses with many or curved blades are praised for their bokeh.\nAt the edges of the frame, wide open, the lens barrel blocks part of the incoming light (optical vignetting), so the opening seen from the corners is clipped and the balls become 'cat's eyes'. Stop down and the smaller opening is visible even from the corners, so the clipping disappears.\nReal numpy simulation: we compute the lens opening (7-blade iris clipped by the housing, plus a barrel circle shifted with field position) and draw every light with its own opening. In our simulated corner, the cat's eye keeps about 42% of the round ball's area (the exact amount depends on the lens).\nSources: Wikipedia 'Bokeh'; Canon Snapshot 'Lens FAQ: What are aperture blades?'; Photography Life 'What is vignetting?'.\n#photography #bokeh #shorts",
+  "tags": ["photography", "bokeh", "aperture blades", "cat's eye bokeh", "optical vignetting", "aperture", "lens", "night photography", "photography tips"],
+  "pinned_comment": "How many aperture blades does your favourite lens have? Round or polygon bokeh? 👇"
+ },
+ "tiktok_text": "Same lens, 3 bokeh shapes 🤔 Each blurry light is a picture of your aperture: round wide open, a polygon stopped down, a cat's eye at the edges. Real simulation. #photography #camera #photographytips #learnontiktok #bokeh",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bokeh",
+  "https://snapshot.asia.canon/en/article/lens-faq-what-are-aperture-blades-how-do-they-influence-my-photos",
+  "https://photographylife.com/what-is-vignetting"
+ ],
+ "status": "ready"
+}
