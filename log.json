@@ -158,5 +158,22 @@
   "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-6896247434963431804",
   "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-264373240739312695",
   "notes": "Backlog #7 (ISO shot noise) skipped today: slot B megapixel Short already used the same shot-noise simulation; took #8 instead."
+ },
+ {
+  "date": "2026-10-06",
+  "slug": "2026-10-06-eye-vs-sensor-dynamic-range",
+  "format": "data",
+  "style": "glass-editorial",
+  "tone": "punchy",
+  "voice_sid": 7,
+  "title": "Your Eye Isn't Better Than Your Camera. It Cheats.",
+  "status": "scheduled",
+  "slot": "A",
+  "scheduled_at": "2026-10-06T10:00+01:00",
+  "batch": "2026-10-06 slot A run",
+  "duration_s": 46.1,
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-6074340766448858131",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=3178883940266298474",
+  "notes": "Backlog #6 reframed after research: in one fixed glance the eye (~10-14 stops) is in the same league as a top sensor (D850 14.8 EV), so the angle is 'the eye cheats' (adaptation ~24 stops) rather than 'eye beats sensor'. Camera window of 12 stops is a simulation parameter."
  }
 ]

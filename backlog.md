@@ -6,7 +6,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 3. ~~[before-after] Shutter speed 1/1000 vs 1/15 vs 1 s — simulated motion blur of a moving object.~~ (2026-10-03 slot B, impact style; used 15 s for the vanishing car)
 4. ~~[explainer] Phone night mode — stacking many frames, noise falls with √N; simulate 1 vs 4 vs 16 frames.~~ (RESERVED 2026-10-03 batch for Sat 3 Oct 18:00 slot C — do NOT pick)
 5. ~~[myth] "Telephoto lenses compress the background" — camera distance, not focal length; same framing demo.~~ (2026-10-03 draft, poster style, awaiting Diogo — do NOT redo)
-6. [data] Your eye vs your sensor: dynamic range in stops (eye ~ vs sensor ~14), why skies blow out.
+6. ~~[data] Your eye vs your sensor: dynamic range in stops (eye ~ vs sensor ~14), why skies blow out.~~ (2026-10-06 slot A, glass-editorial; 'your eye cheats' angle, archway simulation)
 7. [before-after] ISO 100 vs 6400 — photon shot noise simulation (noise ∝ √signal).
 8. ~~[explainer] Rolling shutter jello — line-by-line readout simulation on a spinning propeller.~~ (2026-10-05 slot C, poster-editorial; Nikon Z readouts + Sony a9 III global shutter)
 9. [why] Why bokeh balls are round, polygons or cat-eyes — aperture blades + vignetting.
