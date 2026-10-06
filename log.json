@@ -186,5 +186,22 @@
   "scheduled_at": "2026-10-06T09:50+01:00",
   "network": "youtube only",
   "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=4296920847181628725"
+ },
+ {
+  "date": "2026-10-06",
+  "slug": "2026-10-06-bokeh-shapes",
+  "format": "why",
+  "style": "impact",
+  "tone": "curious",
+  "voice_sid": 6,
+  "title": "Same Lens, Three Bokeh Shapes. Here's Why.",
+  "status": "scheduled",
+  "slot": "B",
+  "scheduled_at": "2026-10-06T14:00:00",
+  "batch": null,
+  "duration_s": 38.0,
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=3723917843189747203",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-2625355095247863556",
+  "notes": "Backlog #7 (ISO shot noise, before-after) skipped again: same shot-noise simulation as the 10-05 megapixel Short and today's style had to be impact too; took #9. Barrel-vignetting offset and the 42% corner area are simulation parameters/results, labelled as such."
  }
 ]

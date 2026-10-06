@@ -9,7 +9,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 6. ~~[data] Your eye vs your sensor: dynamic range in stops (eye ~ vs sensor ~14), why skies blow out.~~ (2026-10-06 slot A, glass-editorial; 'your eye cheats' angle, archway simulation)
 7. [before-after] ISO 100 vs 6400 — photon shot noise simulation (noise ∝ √signal).
 8. ~~[explainer] Rolling shutter jello — line-by-line readout simulation on a spinning propeller.~~ (2026-10-05 slot C, poster-editorial; Nikon Z readouts + Sony a9 III global shutter)
-9. [why] Why bokeh balls are round, polygons or cat-eyes — aperture blades + vignetting.
+9. ~~[why] Why bokeh balls are round, polygons or cat-eyes — aperture blades + vignetting.~~ (2026-10-06 slot B, impact; 7 vs 10 blades at f/8, barrel-vignetting cat's eyes)
 10. ~~[myth] "Crop sensors give you more zoom" — it's a crop of the same image.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 14:00 slot B — do NOT pick)
 11. ~~[data] RAW vs JPEG: 14-bit = 16,384 levels vs 8-bit = 256 per channel; banding demo.~~ (RESERVED 2026-10-03 batch for Mon 5 Oct 10:00 slot A — do NOT pick)
 12. [why] Why "warm" light has a LOWER colour temperature (Kelvin, black-body).
