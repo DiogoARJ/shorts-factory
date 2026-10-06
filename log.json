@@ -175,5 +175,16 @@
   "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-6074340766448858131",
   "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=3178883940266298474",
   "notes": "Backlog #6 reframed after research: in one fixed glance the eye (~10-14 stops) is in the same league as a top sensor (D850 14.8 EV), so the angle is 'the eye cheats' (adaptation ~24 stops) rather than 'eye beats sensor'. Camera window of 12 stops is a simulation parameter."
+ },
+ {
+  "date": "2026-10-06",
+  "slug": "teaser-eclipse-2026",
+  "format": "teaser (long-form, 16:9)",
+  "title": "ECLIPSE · Um documentário (Teaser) | Eclipse total 12.08.2026, Los Ancares",
+  "status": "scheduled",
+  "slot": "extra",
+  "scheduled_at": "2026-10-06T09:50+01:00",
+  "network": "youtube only",
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=4296920847181628725"
  }
 ]
