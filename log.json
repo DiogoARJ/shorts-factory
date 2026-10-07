@@ -220,5 +220,21 @@
   "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=5530976167082083293",
   "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-5856984845452751634",
   "notes": "Backlog #13 (diffraction). First Short produced from the Claude Projects thread. setup.sh now installs num2words with --no-deps (docopt wheel build fails on this image)."
+ },
+ {
+  "date": "2026-10-07",
+  "slug": "2026-10-07-nd-filter-1024",
+  "format": "data",
+  "style": "glass-editorial",
+  "tone": "punchy",
+  "voice_sid": 5,
+  "title": "This Glass Blocks 99.9% of Light. Here's Why. (ND Filter Maths)",
+  "status": "scheduled",
+  "slot": "1",
+  "scheduled_at_tiktok": "2026-10-07T12:00+01:00",
+  "scheduled_at_youtube": "2026-10-07T14:00+01:00",
+  "batch": "2026-10-07 Short 1 run",
+  "duration_s": 34.7,
+  "notes": "Backlog #20. New 2-per-day schedule: TikTok 12:00, YouTube 14:00 (same video). Sea frames are a simulation (instant vs 17 s average, equal brightness); 1/60 s x 1024 = 17.07 s."
  }
 ]

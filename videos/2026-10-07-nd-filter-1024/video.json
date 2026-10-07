@@ -1,0 +1,38 @@
+{
+ "slug": "2026-10-07-nd-filter-1024",
+ "format": "data",
+ "style": "glass-editorial",
+ "topic": "ND filter maths: each stop halves the light, 10 stops = 1/1024, so 1/60 s becomes ~17 s (simulated sea at 1/60 s vs 17 s)",
+ "voice_sid": 5,
+ "tone": "punchy",
+ "speed": 1.05,
+ "chords": ["Dm", "Am", "F", "C"],
+ "bpm": 100,
+ "hits": [["A", "almost"], ["E", "17"], ["F", "silk"]],
+ "cta": "FOLLOW · CAMERA MATH, SIMPLIFIED",
+ "lines": [
+  ["This glass blocks almost all light.", null, 0.15, "A"],
+  ["On purpose.", null, 0.25, "A"],
+  ["It's a ten-stop ND filter.", null, 0.25, "B"],
+  ["Each stop halves the light. Ten halvings makes one thousand twenty-four.", "Each stop halves the light. Ten halvings makes 1,024.", 0.25, "C"],
+  ["Your sensor gets a one thousand twenty-fourth of the light, so you need an exposure one thousand twenty-four times longer.", "Your sensor gets a 1,024th of the light, so you need an exposure 1,024 times longer.", 0.25, "D"],
+  ["One sixtieth of a second becomes about seventeen seconds.", "1/60 of a second becomes about 17 seconds.", 0.25, "E"],
+  ["Same waves. At one sixtieth, they're frozen. At seventeen seconds, they're silk.", "Same waves. At 1/60, they're frozen. At 17 seconds, they're silk.", 0.25, "F"],
+  ["The rock doesn't move, so it stays sharp. Only the water blurs.", null, 0.25, "G"],
+  ["Three stops, eight times longer. Six stops, sixty-four times.", "3 stops, 8 times longer. 6 stops, 64 times.", 0.25, "H"],
+  ["Every stop doubles your time.", null, 0.25, "I"],
+  ["Block the light, buy yourself time.", null, 0.0, "J"]
+ ],
+ "youtube": {
+  "title": "This Glass Blocks 99.9% of Light. Here's Why. (ND Filter Maths)",
+  "description": "A 10-stop ND filter (ND1000) halves the light ten times: 2^10 = 1,024, so only ~0.1% reaches the sensor. To keep the same exposure, the shutter must stay open 1,024× longer: 1/60 s becomes ~17 s (1/60 × 1,024 ≈ 17.07 s). 3 stops = 8× longer, 6 stops = 64×. The sea frames are a simulation: one instant vs an average over 17 s of moving waves, with a static rock.\n#photography #ndfilter #shorts",
+  "tags": ["photography", "nd filter", "ND1000", "long exposure", "10 stop filter", "photography tips", "camera math", "shutter speed"],
+  "pinned_comment": "Do you own an ND filter? Which strength: ND8, ND64 or ND1000? 👇"
+ },
+ "tiktok_text": "10-stop ND filter = 1,024× less light 🌊 So 1/60 s becomes ~17 s. Simulated sea inside. #photography #ndfilter #longexposure #photographytips #learnontiktok",
+ "sources": [
+  "https://shuttermuse.com/how-to-calculate-long-exposure-times/ (each stop doubles exposure time, t = t0 × 2^stops; 10 stops = 1,024×, OD 3.0, ~0.098% light; 1/60 s -> ~17 s)",
+  "Check: 2^10 = 1,024; (1/60) × 1,024 = 17.07 s; 8/60 = 0.13 s; 64/60 = 1.07 s"
+ ],
+ "status": "draft"
+}
