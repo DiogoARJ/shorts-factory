@@ -247,11 +247,13 @@
   "tone": "curious",
   "voice_sid": 9,
   "title": "One Twist Makes Reflections Vanish (Polarizing Filter Physics)",
-  "status": "produced",
+  "status": "scheduled",
   "slot": "2",
   "scheduled_at": "2026-10-07T18:00+01:00",
   "batch": "2026-10-07 Short 2 run",
   "duration_s": 42.8,
-  "notes": "Backlog #16. Lake images are simulations (20% surviving reflection in 'on' is a parameter). Brewster 53.06 / 56.31 deg from arctan(1.33)/arctan(1.5)."
+  "notes": "Backlog #16. Lake images are simulations (20% surviving reflection in 'on' is a parameter). Brewster 53.06 / 56.31 deg from arctan(1.33)/arctan(1.5).",
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=6269209481032386698",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-7514767012539969985"
  }
 ]
