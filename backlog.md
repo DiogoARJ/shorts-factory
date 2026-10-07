@@ -16,7 +16,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 13. ~~[explainer] Diffraction: why f/22 is softer than f/8 (Airy disk vs pixel size).~~ (2026-10-07 slot A, poster-editorial)
 14. ~~[history] The first photograph (Niépce, ~1826/27) — exposure of hours/days; compare with 1/8000 s today.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 10:00 slot A — do NOT pick)
 15. [why] Why the Sunny 16 rule works.
-16. [before-after] Polarizer on vs off — sky and reflections (simulated; explain Brewster angle).
+16. ~~[before-after] Polarizer on vs off — sky and reflections (simulated; explain Brewster angle).~~ (done 2026-10-07)
 17. [explainer] How to read a histogram in 40 s.
 18. [data] sRGB covers only ~35% of colours the eye sees (CIE chromaticity diagram).
 19. ~~[why] Why golden hour is golden — Rayleigh scattering, longer light path.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 18:00 slot C — do NOT pick)

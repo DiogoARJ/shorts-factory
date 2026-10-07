@@ -1,0 +1,110 @@
+{
+ "slug": "2026-10-07-polarizer-brewster",
+ "format": "before-after",
+ "style": "impact",
+ "topic": "Polarizing filter on vs off: reflections from water/glass are polarized, weakest p-polarized reflection at Brewster's angle (water ~53 deg, glass ~56 deg); sky most polarized 90 deg from the sun; costs 1-3 stops (simulated lake)",
+ "voice_sid": 9,
+ "tone": "curious",
+ "speed": 1.0,
+ "chords": [
+  "Em",
+  "C",
+  "G",
+  "D"
+ ],
+ "bpm": 92,
+ "hits": [
+  [
+   "A",
+   "vanish"
+  ],
+  [
+   "D",
+   "zero"
+  ],
+  [
+   "G",
+   "stops"
+  ]
+ ],
+ "cta": "FOLLOW · CAMERA PHYSICS, SIMPLIFIED",
+ "lines": [
+  [
+   "Watch this reflection vanish.",
+   null,
+   0.15,
+   "A"
+  ],
+  [
+   "One twist of a filter.",
+   null,
+   0.25,
+   "A"
+  ],
+  [
+   "It's a polarizer. Light bouncing off water gets polarized: its waves mostly wiggle in one direction.",
+   null,
+   0.25,
+   "B"
+  ],
+  [
+   "The filter is a rotating gate. Turn it across that direction, and the glare is blocked.",
+   null,
+   0.25,
+   "C"
+  ],
+  [
+   "Part of a reflection disappears at one special angle. Measured from perpendicular: fifty-three degrees for water. Fifty-six for glass.",
+   "Part of a reflection disappears at one special angle. Measured from perpendicular: 53 degrees for water. 56 for glass.",
+   0.25,
+   "D"
+  ],
+  [
+   "At that angle, one polarization reflects exactly zero. It's called Brewster's angle.",
+   null,
+   0.25,
+   "E"
+  ],
+  [
+   "The sky works too. It's most polarized ninety degrees away from the sun, so the blue gets deeper.",
+   "The sky works too. It's most polarized 90 degrees away from the sun, so the blue gets deeper.",
+   0.25,
+   "F"
+  ],
+  [
+   "The price: one to three stops of light.",
+   null,
+   0.25,
+   "G"
+  ],
+  [
+   "One twist, and the reflection vanishes.",
+   null,
+   0.0,
+   "H"
+  ]
+ ],
+ "youtube": {
+  "title": "One Twist Makes Reflections Vanish (Polarizing Filter Physics)",
+  "description": "Light reflected off water or glass is partly polarized. A polarizing filter blocks that direction when you rotate it (Malus's law: I = I0 cos^2 θ). Reflection of p-polarized light is zero at Brewster's angle, θ = arctan(n): about 53° for water (n≈1.33) and 56° for glass (n≈1.5). Skylight is most polarized about 90° from the sun, and a polarizer costs roughly 1 to 3 stops of light. The lake shown is a simulation.\n#photography #polarizer #shorts",
+  "tags": [
+   "photography",
+   "polarizer",
+   "polarizing filter",
+   "CPL",
+   "brewster angle",
+   "reflections",
+   "photography tips",
+   "camera physics"
+  ],
+  "pinned_comment": "Do you shoot with a polarizer? Landscapes, water or windows? 👇"
+ },
+ "tiktok_text": "One twist and the reflection is gone 🔄 Polarizing filter physics: Brewster's angle ~53° for water, ~56° for glass. Simulated lake. #photography #polarizer #photographytips #camera #learnontiktok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Brewster%27s_angle (θB = arctan(n2/n1); air-water ~53°, air-glass ~56°; p-polarized reflection is zero at θB)",
+  "https://en.wikipedia.org/wiki/Polarizing_filter_(photography) (strongest sky polarization 90° from the sun; polarizer reduces light by about 1 to 3 stops; reduces reflections from water/glass/foliage)",
+  "https://en.wikipedia.org/wiki/Polarizer (Malus's law I = I0 cos^2 θ, zero at 90°)",
+  "Check: arctan(1.33)=53.06°, arctan(1.5)=56.31°. Lake images are numpy simulations; the 20% surviving reflection in the 'ON' image is a simulation parameter."
+ ],
+ "status": "draft"
+}
