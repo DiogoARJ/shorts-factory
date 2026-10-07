@@ -203,5 +203,22 @@
   "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=3723917843189747203",
   "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-2625355095247863556",
   "notes": "Backlog #7 (ISO shot noise, before-after) skipped again: same shot-noise simulation as the 10-05 megapixel Short and today's style had to be impact too; took #9. Barrel-vignetting offset and the 42% corner area are simulation parameters/results, labelled as such."
+ },
+ {
+  "date": "2026-10-07",
+  "slug": "2026-10-07-diffraction-f22",
+  "format": "explainer",
+  "style": "poster-editorial",
+  "tone": "calm-explainer",
+  "voice_sid": 3,
+  "title": "Why f/22 Is Softer Than f/8 (The Airy Disk, Simulated)",
+  "status": "scheduled",
+  "slot": "A",
+  "scheduled_at": "2026-10-07T10:00+01:00",
+  "batch": "2026-10-07 migration test (projects thread)",
+  "duration_s": 46.2,
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=5530976167082083293",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=-5856984845452751634",
+  "notes": "Backlog #13 (diffraction). First Short produced from the Claude Projects thread. setup.sh now installs num2words with --no-deps (docopt wheel build fails on this image)."
  }
 ]
