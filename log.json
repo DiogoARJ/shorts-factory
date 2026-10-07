@@ -235,6 +235,8 @@
   "scheduled_at_youtube": "2026-10-07T14:00+01:00",
   "batch": "2026-10-07 Short 1 run",
   "duration_s": 34.7,
-  "notes": "Backlog #20. New 2-per-day schedule: TikTok 12:00, YouTube 14:00 (same video). Sea frames are a simulation (instant vs 17 s average, equal brightness); 1/60 s x 1024 = 17.07 s."
+  "notes": "Backlog #20. New 2-per-day schedule: TikTok 12:00, YouTube 14:00 (same video). Sea frames are a simulation (instant vs 17 s average, equal brightness); 1/60 s x 1024 = 17.07 s.",
+  "planner_tiktok": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=1803774231154543605",
+  "planner_youtube": "https://app.metricool.com/planner/calendar?blogId=7128060&openWithPostUuid=9201793300376864652"
  }
 ]
