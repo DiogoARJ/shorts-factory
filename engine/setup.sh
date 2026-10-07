@@ -2,7 +2,7 @@
 # One-time setup per fresh session. Installs everything into ~/.sf
 set -e
 SF="$(cd "$(dirname "$0")/.." && pwd)/.cache/sfdeps"; mkdir -p "$SF"; cd "$SF"
-pip install --break-system-packages -q sherpa-onnx soundfile scipy numpy pillow num2words 2>/dev/null
+pip install --break-system-packages -q sherpa-onnx soundfile scipy numpy pillow 2>/dev/null; pip install --break-system-packages -q --no-deps num2words 2>/dev/null
 if [ ! -f kokoro-en-v0_19/model.onnx ]; then
   curl -sL -o kokoro.tar.bz2 https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-en-v0_19.tar.bz2
   tar xjf kokoro.tar.bz2 && rm kokoro.tar.bz2

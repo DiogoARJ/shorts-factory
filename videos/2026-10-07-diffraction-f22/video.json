@@ -1,0 +1,39 @@
+{
+ "slug": "2026-10-07-diffraction-f22",
+ "format": "explainer",
+ "style": "poster-editorial",
+ "topic": "Diffraction: why f/22 is softer than f/8 (Airy disk 2.44 x wavelength x f-number vs Canon R8 6 micron pixels; simulated Siemens star)",
+ "voice_sid": 3,
+ "tone": "calm-explainer",
+ "speed": 1.0,
+ "chords": ["Em", "C", "G", "D"],
+ "bpm": 92,
+ "hits": [["A", "softer"], ["F", "five"], ["G", "changed"]],
+ "cta": "FOLLOW · CAMERA PHYSICS, EXPLAINED",
+ "lines": [
+  ["Close your aperture more, and your photo gets softer.", null, 0.15, "A"],
+  ["Yes, really.", null, 0.25, "A"],
+  ["Light is a wave. Squeeze it through a tiny hole, and it spreads out.", null, 0.25, "B"],
+  ["One point of light becomes a fuzzy disc, with rings around it. It's called the Airy disk.", null, 0.25, "C"],
+  ["Its width is two point four four, times the wavelength of light, times your f-number.", "Its width is 2.44 × the wavelength of light × your f-number.", 0.25, "D"],
+  ["Green light at f eight makes a disc about eleven microns wide. A Canon R8 pixel is six. So, about two pixels.", "Green light at f/8 makes a disc about 11 microns wide. A Canon R8 pixel is 6. So, about 2 pixels.", 0.25, "E"],
+  ["Now f twenty-two. About thirty microns. Five pixels wide. Every point of detail smears across five.", "Now f/22. About 30 microns. 5 pixels wide. Every point of detail smears across 5.", 0.25, "F"],
+  ["Same scene. Same lens. Only the aperture changed.", null, 0.25, "G"],
+  ["Stopping down buys you depth of field, but costs you sharpness.", null, 0.25, "H"],
+  ["So smaller is not automatically sharper.", null, 0.25, "I"],
+  ["A smaller aperture can mean a softer photo.", null, 0.0, "J"]
+ ],
+ "youtube": {
+  "title": "Why f/22 Is Softer Than f/8 (The Airy Disk, Simulated)",
+  "description": "Stopping down to f/22 spreads every point of light into an Airy disk about 2.44 × wavelength × f-number wide. For green light (~550 nm) that is ~11 µm at f/8 and ~30 µm at f/22. A Canon R8 pixel is 6 µm, so the disc covers ~2 pixels at f/8 and ~5 at f/22, which is why fine detail softens. The trade-off: stopping down buys depth of field. The star-chart comparison is a simulation of an ideal lens with diffraction only.\n#photography #camera #shorts",
+  "tags": ["photography", "diffraction", "aperture", "f/22", "airy disk", "photography tips", "camera physics", "sharpness"],
+  "pinned_comment": "What's the smallest aperture you actually shoot at? f/16? f/22? 👇"
+ },
+ "tiktok_text": "f/22 is NOT sharper than f/8 🔍 Light bends through a small aperture and smears every point across ~5 pixels. Simulated inside. #photography #camera #photographytips #diffraction #learnontiktok",
+ "sources": [
+  "https://www.edmundoptics.com/knowledge-center/application-notes/imaging/limitations-on-resolution-and-contrast-the-airy-disk/ (Airy disk diameter ≈ 2.44 × λ × f/#)",
+  "https://www.cambridgeincolour.com/tutorials/diffraction-photography.htm (mid-spectrum ~550 nm; Airy disk ~2-3 px limits resolution; depth-of-field trade-off)",
+  "https://www.apotelyt.com/camera-specs/canon-r8-sensor-pixels (R8 pixel pitch 5.98 µm, 6000×4000; check: 36 mm / 6000 = 6.0 µm)"
+ ],
+ "status": "draft"
+}
