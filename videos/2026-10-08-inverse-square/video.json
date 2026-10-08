@@ -1,0 +1,103 @@
+{
+ "slug": "2026-10-08-inverse-square",
+ "format": "explainer",
+ "style": "glass-editorial",
+ "topic": "Inverse square law for flash/light: double the distance = 1/4 of the light (same light over 4x the area), 3x = 1/9; 1/4 light = 2 stops, compensate by opening the aperture two stops (f/8 to f/4)",
+ "voice_sid": 3,
+ "tone": "punchy",
+ "speed": 1.0,
+ "chords": [
+  "Em",
+  "C",
+  "G",
+  "D"
+ ],
+ "bpm": 96,
+ "hits": [
+  [
+   "B",
+   "quarter"
+  ],
+  [
+   "D",
+   "ninth"
+  ],
+  [
+   "H",
+   "quarters"
+  ]
+ ],
+ "cta": "FOLLOW · CAMERA PHYSICS, SIMPLIFIED",
+ "lines": [
+  [
+   "Move your flash twice as far away, and you don't get half the light.",
+   null,
+   0.2,
+   "A"
+  ],
+  [
+   "You get a quarter.",
+   null,
+   0.25,
+   "B"
+  ],
+  [
+   "Light spreads out as it travels. At double the distance, the same light covers four times the area.",
+   null,
+   0.25,
+   "C"
+  ],
+  [
+   "At triple the distance, nine times the area. One ninth of the light.",
+   null,
+   0.25,
+   "D"
+  ],
+  [
+   "Four times the distance? One sixteenth. The light dies fast.",
+   "Four times the distance? One sixteenth. The light dies fast.",
+   0.25,
+   "E"
+  ],
+  [
+   "A quarter of the light is two stops. To compensate, open your aperture from f eight to f four.",
+   "A quarter of the light is 2 stops. To compensate, open your aperture from f/8 to f/4.",
+   0.25,
+   "F"
+  ],
+  [
+   "That's why a flash close to your subject darkens the background. The background is further away, so it gets far less light.",
+   null,
+   0.25,
+   "G"
+  ],
+  [
+   "Distance doesn't halve light. It quarters it.",
+   null,
+   0.0,
+   "H"
+  ]
+ ],
+ "youtube": {
+  "title": "Move Your Flash 2× Further = 1/4 of the Light (Inverse Square Law)",
+  "description": "For a point-like light source such as a flash, intensity falls with the square of the distance: double the distance and the subject receives one quarter of the light (the same light spread over four times the area); triple it and it is one ninth. A quarter of the light is two stops, so to keep the same exposure you open the aperture two stops, for example f/8 to f/4. Real softboxes and large sources deviate from the ideal law when close. The spheres shown are a simulation (1, 1/4, 1/9 light, sRGB-encoded).\n#photography #flash #shorts",
+  "tags": [
+   "photography",
+   "flash photography",
+   "inverse square law",
+   "lighting",
+   "strobe",
+   "speedlight",
+   "photography tips",
+   "camera physics"
+  ],
+  "pinned_comment": "Do you shoot with off-camera flash? How far do you usually place it? 👇"
+ },
+ "tiktok_text": "Flash 2× further = only 1/4 of the light 💡 That's the inverse square law. 2 stops: open f/8 → f/4. Simulated spheres. #photography #flash #photographytips #lighting #learnontiktok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Inverse-square_law (point-source intensity inversely proportional to the square of distance; doubling distance reduces illumination to one quarter)",
+  "https://www.geofflawrence.com/inverse_square_law.html (double the flash-to-subject distance = a quarter of the illumination; need four times the light for the same exposure; that is a two-stop change, compensated by opening the aperture two f-stops)",
+  "Check: 1/2^2 = 1/4; 1/3^2 = 1/9; f/8 -> f/5.6 -> f/4 is two stops; the sphere images are a numpy simulation with I = 1/d^2."
+ ],
+ "status": "draft"
+}

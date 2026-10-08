@@ -271,5 +271,20 @@
   "batch": "2026-10-08 Short 1 run",
   "duration_s": 37.2,
   "notes": "Backlog #27. NOT scheduled in Metricool: account limit blocks every post since 2026-10-06 (all ERROR). Diogo publishes manually (TikTok 12:00, YouTube 14:00). Landscape is a simulation."
+ },
+ {
+  "date": "2026-10-08",
+  "slug": "2026-10-08-inverse-square",
+  "format": "explainer",
+  "style": "glass-editorial",
+  "tone": "punchy",
+  "voice_sid": 3,
+  "title": "Move Your Flash 2× Further = 1/4 of the Light (Inverse Square Law)",
+  "status": "produced_not_scheduled",
+  "slot": "C",
+  "scheduled_at": null,
+  "batch": "2026-10-08 slot C run",
+  "duration_s": 34.0,
+  "notes": "Backlog #28. NOT scheduled in Metricool: account limit blocks publishing (all posts since 2026-10-06 ERROR). Diogo publishes manually at 18:00. Spheres are a numpy simulation (1/d^2, sRGB)."
  }
 ]
