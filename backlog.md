@@ -27,7 +27,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 24. [explainer] JPEG compression: 8×8 blocks and what gets thrown away — simulation.
 25. [before-after] White balance wrong vs right — same scene at 3200 K / 5500 K / 8000 K.
 26. [why] Why photographing a screen makes rainbow moiré (callback to Bayer Short).
-27. [history] The first digital camera (Kodak, Steven Sasson, 1975): 0.01 MP, 23 s to record to tape.
+27. ~~[history] The first digital camera (Kodak, Steven Sasson, 1975): 0.01 MP, 23 s to record to tape.~~ (done 2026-10-08)
 28. [explainer] Inverse square law — move the flash 2× further, get 1/4 of the light.
 29. [before-after] NEEDS-DIOGO — one of Diogo's own RAW photos vs his final edit; he narrates 2 lines or we explain the edits.
 30. [from-long-video] NEEDS-DIOGO — best 30–50 s from his latest long video (he sends the link/file).

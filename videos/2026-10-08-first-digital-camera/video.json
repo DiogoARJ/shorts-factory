@@ -1,0 +1,36 @@
+{
+ "slug": "2026-10-08-first-digital-camera",
+ "format": "history",
+ "style": "poster-editorial",
+ "topic": "Kodak 1975 handheld digital camera (Steven Sasson): 100x100 px, 23 s to record to cassette, 23 s to play back on a TV, ~8 lb, toaster-sized; vs a 24 MP camera (~2,400x more pixels)",
+ "voice_sid": 7,
+ "tone": "storyteller",
+ "speed": 1.0,
+ "chords": ["Am", "F", "C", "G"],
+ "bpm": 90,
+ "hits": [["A", "23"], ["D", "2,400"], ["G", "23"]],
+ "cta": "FOLLOW · PHOTO HISTORY, SIMPLIFIED",
+ "lines": [
+  ["In nineteen seventy-five, saving one photo took twenty-three seconds.", "In 1975, saving one photo took 23 seconds.", 0.2, "A"],
+  ["A Kodak engineer, Steven Sasson, had built a handheld digital camera. It was the size of a toaster, and weighed eight pounds.", "A Kodak engineer, Steven Sasson, had built a handheld digital camera. It was the size of a toaster, and weighed 8 pounds.", 0.25, "B"],
+  ["Its sensor had one hundred by one hundred pixels. That's ten thousand pixels. Point zero one megapixels.", "Its sensor had 100 by 100 pixels. That's 10,000 pixels. 0.01 megapixels.", 0.25, "C"],
+  ["A modern twenty-four megapixel camera, like the Canon R eight, has about twenty-four hundred times more.", "A modern 24-megapixel camera, like the Canon R8, has about 2,400 times more.", 0.25, "D"],
+  ["The photo was written to a cassette tape. To see it, you played it back on a TV. Another twenty-three seconds.", "The photo was written to a cassette tape. To see it, you played it back on a TV. Another 23 seconds.", 0.25, "E"],
+  ["Half a century later, that idea fits in your pocket.", null, 0.25, "F"],
+  ["So next time the shutter clicks, remember: it once took twenty-three seconds.", "So next time the shutter clicks, remember: it once took 23 seconds.", 0.0, "G"]
+ ],
+ "youtube": {
+  "title": "The First Digital Camera Took 23 Seconds Per Photo (Kodak, 1975)",
+  "description": "In December 1975 Kodak engineer Steven Sasson built a handheld digital camera with a 100 × 100 pixel (0.01 MP) sensor. It weighed about 8 lb (3.6 kg), was roughly the size of a toaster, and took 23 seconds to record one image to a cassette tape; playing it back on a TV took another 23 seconds. A Canon EOS R8 has about 24.2 megapixels, roughly 2,400× more pixels. The landscape shown is a simulation, not a photo from the camera.\n#photography #history #shorts",
+  "tags": ["photography", "photography history", "first digital camera", "Kodak", "Steven Sasson", "1975", "megapixels", "camera history"],
+  "pinned_comment": "What was your first digital camera? 👇"
+ },
+ "tiktok_text": "The first digital camera took 23 SECONDS to save one photo 📼 Kodak, 1975: 100×100 pixels. Your camera has ~2,400× more. #photography #cameras #photographyhistory #kodak #learnontiktok",
+ "sources": [
+  "https://ethw.org/Milestones:Handheld_Digital_Camera,_1975 (built by Steven Sasson at Eastman Kodak in December 1975; Fairchild 100 x 100 pixel CCD; 23 s to capture to cassette; another 23 s to retrieve; viewed on a TV; 8 pounds, toaster-sized)",
+  "https://en.wikipedia.org/wiki/Steven_Sasson (100 x 100 pixels, 0.01 MP; ~23 s per image to cassette; 8 lb / 3.6 kg)",
+  "https://canon-europe.com/cameras/eos-r8/specifications (EOS R8 effective resolution ~24.2 MP)",
+  "Check: 24,200,000 / 10,000 = 2,420 (~2,400x). The landscape image is a numpy simulation."
+ ],
+ "status": "draft"
+}
