@@ -306,5 +306,21 @@
     "scheduled_at": {
       "youtube": "2026-10-09T13:00:00+01:00"
     }
+  },
+  {
+    "date": "2026-10-09",
+    "slug": "2026-10-09-sunny-16-ev15",
+    "slot": "C",
+    "format": "why",
+    "style": "poster-editorial",
+    "voice_sid": 1,
+    "tone": "curious",
+    "title": "Why \"Sunny 16\" Works: The Math Behind f/16 and 1/ISO",
+    "status": "scheduled",
+    "scheduler": "buffer",
+    "scheduled_at": {
+      "youtube": "2026-10-09T18:00:00+01:00"
+    },
+    "notes": "YouTube only (TikTok off since 2026-10-09)"
   }
 ]

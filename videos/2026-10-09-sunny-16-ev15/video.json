@@ -1,0 +1,35 @@
+{
+ "slug": "2026-10-09-sunny-16-ev15",
+ "format": "why",
+ "style": "poster-editorial",
+ "topic": "Why the Sunny 16 rule works: f/16 at 1/ISO (1/125 s at ISO 100) = EV log2(16^2 x 125) = log2(32000) ~ 15.0 = standard EV100 for a typical scene in full sun (~82,000 lux by the standard calibration); each stop wider halves the time and keeps the same exposure",
+ "voice_sid": 1,
+ "tone": "curious",
+ "speed": 1.0,
+ "chords": ["Em", "C", "G", "D"],
+ "bpm": 96,
+ "hits": [["A", "meter"], ["D", "fifteen"], ["F", "exposure"]],
+ "cta": "FOLLOW · CAMERA PHYSICS, SIMPLIFIED",
+ "lines": [
+  ["On a sunny day, you don't need a light meter.", null, 0.2, "A"],
+  ["Set your aperture to f sixteen, and your shutter speed to one over your ISO. At ISO one hundred, that's a hundred and twenty-fifth of a second.", "Set your aperture to f/16, and your shutter speed to 1 over your ISO. At ISO 100, that's 1/125 of a second.", 0.25, "B"],
+  ["Why? Exposure depends on the aperture squared, divided by the shutter time. Call it exposure value, E V.", "Why? Exposure depends on the aperture squared, divided by the shutter time. Call it exposure value, EV.", 0.25, "C"],
+  ["Sixteen squared is two fifty-six. Divide by one over a hundred twenty-five: thirty-two thousand. Take the base two logarithm: fifteen.", "16 squared is 256. Divide by 1 over 125: 32,000. Take the base 2 logarithm: 15.", 0.25, "D"],
+  ["E V fifteen is the standard value for a typical scene in full sun at ISO one hundred. More than eighty thousand lux.", "EV 15 is the standard value for a typical scene in full sun at ISO 100. More than 80,000 lux.", 0.25, "E"],
+  ["Open one stop, to f eleven, and you need half the time. Same exposure. Same at f eight, and f five point six.", "Open one stop, to f/11, and you need half the time. Same exposure. Same at f/8, and f/5.6.", 0.25, "F"],
+  ["The sun doesn't change. So neither do your settings.", null, 0.0, "G"]
+ ],
+ "youtube": {
+  "title": "Why \"Sunny 16\" Works: The Math Behind f/16 and 1/ISO",
+  "description": "The Sunny 16 rule: in direct sun, set the aperture to f/16 and the shutter speed to 1/ISO (about 1/125 s at ISO 100). It works because exposure value is EV = log2(N²/t): f/16 at 1/125 s gives log2(256 × 125) = log2(32,000) ≈ 15.0, which is the standard EV100 for a typical scene in full sun. By the standard meter calibration that is roughly 82,000 lux. Open the aperture one stop (f/11) and halve the exposure time (1/250 s) and the exposure stays the same. The frames are a simulation (illustrative blur scales), not photos.\n#photography #exposure #shorts",
+  "tags": ["photography", "sunny 16", "sunny 16 rule", "exposure value", "EV", "exposure triangle", "aperture", "shutter speed", "photography tips"],
+  "pinned_comment": "Do you use Sunny 16, or always trust the meter? 👇"
+ },
+ "tiktok_text": "off",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sunny_16_rule (f/16 and shutter = 1/ISO; ISO 100 -> 1/100 or 1/125 s; exposure ~ 1/N^2 x t, one stop = factor ~sqrt2, e.g. 1/250 s at f/11 = 1/125 s at f/16)",
+  "https://en.wikipedia.org/wiki/Exposure_value (EV = log2(N^2/t); EV100 = 15 for a typical scene in full or slightly hazy sunlight with distinct shadows; with C = 250 lux*s*ISO, EV 15 'sunny sixteen' = 82,000 lux)",
+  "Check: log2(16^2 x 125) = log2(32000) = 14.97; f/11 1/250 = 14.88; f/8 1/500 = 14.97; f/5.6 1/1000 = 14.94. Frames are a numpy simulation with illustrative blur scales."
+ ],
+ "status": "draft"
+}
