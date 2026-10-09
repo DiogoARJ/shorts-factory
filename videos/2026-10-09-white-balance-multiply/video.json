@@ -1,0 +1,36 @@
+{
+ "slug": "2026-10-09-white-balance-multiply",
+ "format": "before-after",
+ "style": "impact",
+ "topic": "White balance is per-channel multiplication: lamps ~3,200 K vs daylight ~5,500-6,000 K, lower Kelvin = redder light, camera finds a neutral and scales R, G, B (e.g. red 240 -> 255 = x255/240); wrong WB turns the scene blue or orange",
+ "voice_sid": 6,
+ "tone": "calm-explainer",
+ "speed": 1.0,
+ "chords": ["Am", "F", "C", "G"],
+ "bpm": 90,
+ "hits": [["A", "wrong"], ["E", "multiplies"], ["G", "multiplication"]],
+ "cta": "FOLLOW · CAMERA PHYSICS, SIMPLIFIED",
+ "lines": [
+  ["This photo is the wrong color.", null, 0.2, "A"],
+  ["Fixing it takes three multiplications.", null, 0.25, "A"],
+  ["Your camera has to guess the light. A studio lamp is about thirty-two hundred Kelvin. Daylight is closer to fifty-five hundred.", "Your camera has to guess the light. A studio lamp is about 3,200 Kelvin. Daylight is closer to 5,500.", 0.25, "B"],
+  ["Lower Kelvin means redder light. So under a lamp, everything looks orange.", null, 0.25, "C"],
+  ["To fix it, the camera finds something that should be neutral, like white paper. Say its red channel reads two hundred forty, out of two fifty-five.", "To fix it, the camera finds something that should be neutral, like white paper. Say its red channel reads 240, out of 255.", 0.25, "D"],
+  ["So it multiplies every red value by two fifty-five over two forty. Green and blue get their own multipliers.", "So it multiplies every red value by 255 over 240. Green and blue get their own multipliers.", 0.25, "E"],
+  ["Set it wrong, and the same scene turns blue, or orange.", null, 0.25, "F"],
+  ["White balance is just multiplication. One number per color channel.", null, 0.0, "G"]
+ ],
+ "youtube": {
+  "title": "White Balance Is Just 3 Multiplications (Why Photos Turn Orange)",
+  "description": "Light has a color temperature: studio lamps are about 3,200 K, daylight about 5,500 to 6,000 K, and lower Kelvin means redder light, so a scene under a lamp looks orange. White balance finds something that should be neutral, then scales the red, green and blue channels (for example, if white paper reads 240 in red out of 255, multiply red by 255/240 ≈ 1.06). Set the wrong white balance and the same scene turns blue or orange. The images are an illustrative simulation (approximate black-body colors), not real photos.\n#photography #whitebalance #shorts",
+  "tags": ["photography", "white balance", "color temperature", "Kelvin", "camera settings", "photography tips", "color cast", "camera physics"],
+  "pinned_comment": "Do you shoot Auto white balance or set Kelvin by hand? 👇"
+ },
+ "tiktok_text": "White balance = 3 multiplications 🎨 Lamp ≈ 3,200 K, daylight ≈ 5,500 K. The camera scales R, G and B so white looks white. Simulated. #photography #whitebalance #photographytips #camera #learnontiktok",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Color_temperature (studio lamps/photofloods 3,200 K; vertical daylight 5,500-6,000 K; lower color temperature = warmer/redder light)",
+  "https://en.wikipedia.org/wiki/Color_balance (scale all luminances so neutral objects appear neutral; 'multiply all red values by 255/240' example; simple scaling of R, G, B channels / diagonal matrix)",
+  "Check: 255/240 = 1.0625. Images: numpy simulation using an approximate black-body RGB fit applied to sRGB values; illustrative only."
+ ],
+ "status": "draft"
+}

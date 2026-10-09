@@ -286,5 +286,21 @@
   "batch": "2026-10-08 slot C run",
   "duration_s": 34.0,
   "notes": "Backlog #28. NOT scheduled in Metricool: account limit blocks publishing (all posts since 2026-10-06 ERROR). Diogo publishes manually at 18:00. Spheres are a numpy simulation (1/d^2, sRGB)."
+ },
+ {
+  "date": "2026-10-09",
+  "slug": "2026-10-09-white-balance-multiply",
+  "format": "before-after",
+  "style": "impact",
+  "tone": "calm-explainer",
+  "voice_sid": 6,
+  "title": "White Balance Is Just 3 Multiplications (Why Photos Turn Orange)",
+  "status": "produced_not_scheduled",
+  "slot": "1",
+  "scheduled_at_tiktok": null,
+  "scheduled_at_youtube": null,
+  "batch": "2026-10-09 Short 1 run",
+  "duration_s": 41.0,
+  "notes": "Backlog #25 (reframed as per-channel multiplication). NOT scheduled: Metricool limit unresolved as far as known (posts list empty, no word from Diogo); awaiting his confirmation. Images are an illustrative simulation (approx black-body RGB)."
  }
 ]

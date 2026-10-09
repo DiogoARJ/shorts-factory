@@ -25,7 +25,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 22. [why] Why lenses have 10+ glass elements — aberrations, simulated.
 23. [myth] "Wide open is sharpest" — the lens sweet spot.
 24. [explainer] JPEG compression: 8×8 blocks and what gets thrown away — simulation.
-25. [before-after] White balance wrong vs right — same scene at 3200 K / 5500 K / 8000 K.
+25. ~~[before-after] White balance wrong vs right — same scene at 3200 K / 5500 K / 8000 K.~~ (done 2026-10-09)
 26. [why] Why photographing a screen makes rainbow moiré (callback to Bayer Short).
 27. ~~[history] The first digital camera (Kodak, Steven Sasson, 1975): 0.01 MP, 23 s to record to tape.~~ (done 2026-10-08)
 28. ~~[explainer] Inverse square law — move the flash 2× further, get 1/4 of the light.~~ (done 2026-10-08)
