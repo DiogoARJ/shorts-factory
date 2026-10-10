@@ -322,5 +322,22 @@
       "youtube": "2026-10-09T18:00:00+01:00"
     },
     "notes": "YouTube only (TikTok off since 2026-10-09)"
+  },
+  {
+    "date": "2026-10-10",
+    "slug": "2026-10-10-histogram-jpeg-lie",
+    "slot": "1",
+    "format": "myth",
+    "style": "glass-editorial",
+    "tone": "punchy",
+    "voice_sid": 5,
+    "title": "Your Camera's Histogram Is Lying to You (RAW vs JPEG)",
+    "status": "scheduled",
+    "scheduler": "buffer",
+    "scheduled_at": {
+      "youtube": "2026-10-10T13:00:00+01:00"
+    },
+    "duration_s": 31.3,
+    "notes": "YouTube only. RAW headroom in the illustration is illustrative (1.95x), disclosed on screen."
   }
 ]

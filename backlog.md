@@ -17,7 +17,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 14. ~~[history] The first photograph (Niépce, ~1826/27) — exposure of hours/days; compare with 1/8000 s today.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 10:00 slot A — do NOT pick)
 15. ~~[why] Why the Sunny 16 rule works.~~ (done 2026-10-09 slot C, poster-editorial; EV 15 maths + 4 equal-exposure frames)
 16. ~~[before-after] Polarizer on vs off — sky and reflections (simulated; explain Brewster angle).~~ (done 2026-10-07)
-17. [explainer] How to read a histogram in 40 s.
+17. [DONE 2026-10-10] [explainer] How to read a histogram in 40 s.
 18. [data] sRGB covers only ~35% of colours the eye sees (CIE chromaticity diagram).
 19. ~~[why] Why golden hour is golden — Rayleigh scattering, longer light path.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 18:00 slot C — do NOT pick)
 20. ~~[data] ND filter maths: 10 stops = 1/1024 of the light, 1/60 s becomes 17 s.~~ (2026-10-07 Short 1, glass-editorial)

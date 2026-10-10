@@ -1,0 +1,35 @@
+{
+ "slug": "2026-10-10-histogram-jpeg-lie",
+ "format": "myth",
+ "style": "glass-editorial",
+ "topic": "The camera histogram is computed from the processed JPEG preview, not the RAW data, so it can show clipping that the RAW file does not have",
+ "voice_sid": 5,
+ "tone": "punchy",
+ "speed": 1.05,
+ "chords": ["Am", "F", "C", "G"],
+ "bpm": 96,
+ "hits": [["A", "lying"], ["C", "spike"], ["E", "RAW"]],
+ "cta": "FOLLOW · PHOTO MYTHS, BUSTED",
+ "lines": [
+  ["Your camera's histogram is lying to you.", null, 0.25, "A"],
+  ["It counts pixels by brightness. Zero is black, two fifty-five is white.", "It counts pixels by brightness. 0 is black, 255 is white.", 0.25, "B"],
+  ["A spike jammed against the right edge means clipped highlights. Pure white, no detail.", null, 0.25, "C"],
+  ["But that histogram isn't built from your RAW file. It's built from the JPEG preview.", null, 0.25, "D"],
+  ["The camera applies contrast and a tone curve first, so the preview can clip when the RAW data still holds detail.", null, 0.25, "E"],
+  ["Same sky. The JPEG says blown. The RAW file recovers the clouds.", null, 0.25, "F"],
+  ["So treat the histogram as a warning, not a verdict.", null, 0.0, "G"]
+ ],
+ "youtube": {
+  "title": "Your Camera's Histogram Is Lying to You (RAW vs JPEG)",
+  "description": "The histogram on your camera's screen is calculated from the processed JPEG preview (picture style, contrast, white balance), not from the RAW sensor data. So it can show clipped highlights that the RAW file may still hold detail in, which is why RAW files often have some extra highlight headroom. The images in this video are an illustration: the amount of RAW headroom varies by camera and settings. Treat the histogram as a warning, not a verdict.\n#photography #histogram #raw #shorts",
+  "tags": ["photography", "histogram", "RAW vs JPEG", "exposure", "blown highlights", "photography tips", "camera settings", "highlight clipping"],
+  "pinned_comment": "Do you trust your histogram, or do you shoot a little darker just in case? 👇"
+ },
+ "tiktok_text": "",
+ "sources": [
+  "https://petapixel.com/2017/01/17/three-common-misconceptions-cameras-histogram/ (in-camera histogram reflects the processed JPEG preview, not the RAW data)",
+  "https://fastrawviewer.com/node/419 (evaluating exposure with the in-camera histogram: based on the JPEG preview, RAW can hold more highlight data)",
+  "Illustration note: scene is a synthetic linear-light render; RAW headroom of 1.95x is illustrative, not a measurement of a specific camera"
+ ],
+ "status": "draft"
+}
