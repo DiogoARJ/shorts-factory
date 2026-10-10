@@ -31,3 +31,4 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 28. ~~[explainer] Inverse square law — move the flash 2× further, get 1/4 of the light.~~ (done 2026-10-08)
 29. [before-after] NEEDS-DIOGO — one of Diogo's own RAW photos vs his final edit; he narrates 2 lines or we explain the edits.
 30. [from-long-video] NEEDS-DIOGO — best 30–50 s from his latest long video (he sends the link/file).
+31. [DONE 2026-10-10 slot C, impact] [before-after] ISO noise is a light problem (photon shot noise, sqrt(64)=8).

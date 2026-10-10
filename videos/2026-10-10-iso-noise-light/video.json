@@ -1,0 +1,36 @@
+{
+ "slug": "2026-10-10-iso-noise-light",
+ "format": "before-after",
+ "style": "impact",
+ "topic": "High-ISO noise is mostly a light problem: photon shot noise is Poisson, SNR = sqrt(photons). For equal brightness ISO 6400 collects 64x fewer photons than ISO 100, so signal-to-noise is sqrt(64) = 8x lower (simulated, shot noise only)",
+ "voice_sid": 3,
+ "tone": "curious",
+ "speed": 1.0,
+ "chords": ["F", "C", "G", "Am"],
+ "bpm": 104,
+ "hits": [["A", "Eight"], ["E", "64"], ["F", "eight"]],
+ "cta": "FOLLOW · CAMERA PHYSICS, SIMPLIFIED",
+ "lines": [
+  ["Same scene, same camera. Eight times noisier.", "Same scene, same camera. 8 times noisier.", 0.25, "A"],
+  ["Left is ISO one hundred. Right is ISO sixty-four hundred. Equally bright.", "Left is ISO 100. Right is ISO 6,400. Equally bright.", 0.25, "B"],
+  ["But ISO isn't what makes the noise. Light is.", null, 0.25, "C"],
+  ["Light arrives as photons, landing at random. Count only a few, and the count wobbles.", null, 0.25, "D"],
+  ["For equal brightness, ISO sixty-four hundred gets sixty-four times less light than ISO one hundred.", "For equal brightness, ISO 6,400 gets 64 times less light than ISO 100.", 0.25, "E"],
+  ["Signal to noise follows the square root of the light. The square root of sixty-four is eight.", "Signal to noise follows the square root of the light. The square root of 64 is 8.", 0.25, "F"],
+  ["So the cure isn't a setting. It's more light. A wider aperture, or a longer exposure.", null, 0.25, "G"],
+  ["Noise is a light problem, not an ISO problem.", null, 0.0, "H"]
+ ],
+ "youtube": {
+  "title": "Your High-ISO Photos Aren't Noisy Because of ISO (It's Light)",
+  "description": "Noise at high ISO is mostly photon shot noise: light arrives as discrete photons following Poisson statistics, so with N photons the noise is about sqrt(N) and signal-to-noise is about sqrt(N). To keep the same brightness, ISO 6400 needs 64 times less light than ISO 100 (six stops: 2^6 = 64), so signal-to-noise falls by sqrt(64) = 8 in the shot-noise-limited case. The fix is more light: a wider aperture or a longer exposure. The images are a simulation (shot noise only, a dim scene, illustrative photon counts), not real photos; real cameras also add read noise and processing.\n#photography #iso #shorts",
+  "tags": ["photography", "ISO", "noise", "high ISO", "photon shot noise", "low light photography", "photography tips", "camera physics"],
+  "pinned_comment": "What's the highest ISO you're happy to shoot at on your camera? 👇"
+ },
+ "tiktok_text": "",
+ "sources": [
+  "https://people.csail.mit.edu/fredo/comp-photo-book/02-fundamentals-06-noise-signal-to-noise-ratio-and-dynamic-range.html (photon shot noise is Poisson: variance = mean, sigma = sqrt(N), SNR = sqrt(N); worst in the shadows)",
+  "https://www.tucsen.com/learning/photon-shot-noise-in-scientific-imaging-snr/ (photon shot noise grows as the square root of the signal; shot-noise-limited SNR scales as sqrt(Ne))",
+  "Check: ISO 100 -> 6400 = 6 stops = 2^6 = 64x; sqrt(64) = 8. Simulation measured SNR 29.95 vs 3.76 (ratio 8.0) at white level with 900 vs 14.06 photons/px; illustrative counts, shot noise only."
+ ],
+ "status": "draft"
+}

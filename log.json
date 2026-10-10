@@ -339,5 +339,22 @@
     },
     "duration_s": 31.3,
     "notes": "YouTube only. RAW headroom in the illustration is illustrative (1.95x), disclosed on screen."
+  },
+  {
+    "date": "2026-10-10",
+    "slug": "2026-10-10-iso-noise-light",
+    "slot": "C",
+    "format": "before-after",
+    "style": "impact",
+    "tone": "curious",
+    "voice_sid": 3,
+    "title": "Your High-ISO Photos Aren't Noisy Because of ISO (It's Light)",
+    "status": "scheduled",
+    "scheduler": "buffer",
+    "scheduled_at": {
+      "youtube": "2026-10-10T18:00:00+01:00"
+    },
+    "duration_s": 37.5,
+    "notes": "YouTube only. Shot-noise-only simulation, illustrative photon counts, disclosed on screen."
   }
 ]
