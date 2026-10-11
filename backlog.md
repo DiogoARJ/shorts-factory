@@ -21,7 +21,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 18. [data] sRGB covers only ~35% of colours the eye sees (CIE chromaticity diagram).
 19. ~~[why] Why golden hour is golden — Rayleigh scattering, longer light path.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 18:00 slot C — do NOT pick)
 20. ~~[data] ND filter maths: 10 stops = 1/1024 of the light, 1/60 s becomes 17 s.~~ (2026-10-07 Short 1, glass-editorial)
-21. [explainer] Hyperfocal distance — focus here and everything to infinity is sharp.
+21. [DONE 2026-10-11 slot 1, poster-editorial] [explainer] Hyperfocal distance.
 22. [why] Why lenses have 10+ glass elements — aberrations, simulated.
 23. [myth] "Wide open is sharpest" — the lens sweet spot.
 24. [explainer] JPEG compression: 8×8 blocks and what gets thrown away — simulation.

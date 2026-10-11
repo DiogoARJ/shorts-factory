@@ -356,5 +356,22 @@
     },
     "duration_s": 37.5,
     "notes": "YouTube only. Shot-noise-only simulation, illustrative photon counts, disclosed on screen."
+  },
+  {
+    "date": "2026-10-11",
+    "slug": "2026-10-11-hyperfocal-distance",
+    "slot": "1",
+    "format": "explainer",
+    "style": "poster-editorial",
+    "tone": "calm-explainer",
+    "voice_sid": 7,
+    "title": "Stop Focusing on the Horizon: Use Hyperfocal Distance",
+    "status": "scheduled",
+    "scheduler": "buffer",
+    "scheduled_at": {
+      "youtube": "2026-10-11T13:00:00+01:00"
+    },
+    "duration_s": 44.1,
+    "notes": "YouTube only. Backlog #21. Thin-lens defocus simulation at 100% crop, disclosed on screen; c=0.03 mm full frame."
   }
 ]
