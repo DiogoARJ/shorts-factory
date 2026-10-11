@@ -1,0 +1,35 @@
+{
+ "slug": "2026-10-11-first-photo-niepce",
+ "format": "history",
+ "style": "glass-editorial",
+ "topic": "The oldest surviving camera photograph, Niepce's View from the Window at Le Gras (1827, bitumen on pewter): traditional estimate ~8 h exposure (some research says several days); 8 h = 28,800 s, vs 1/250 s on a sunny day today = ~7.2 million times shorter",
+ "voice_sid": 9,
+ "tone": "storyteller",
+ "speed": 1.0,
+ "chords": ["Em", "C", "G", "D"],
+ "bpm": 88,
+ "hits": [["A", "eight"], ["F", "7"], ["G", "blink"]],
+ "cta": "FOLLOW · PHOTO HISTORY, SIMPLIFIED",
+ "lines": [
+  ["The first photograph took about eight hours. Maybe days.", null, 0.25, "A"],
+  ["Nee-say-fore Nyeps made it in eighteen twenty-seven, on a pewter plate coated with bitumen.", "Nicéphore Niépce made it in 1827, on a pewter plate coated with bitumen.", 0.25, "B"],
+  ["Bitumen hardens where light hits it. Wash away the soft parts, and the picture appears.", null, 0.25, "C"],
+  ["But the light was weak, so the plate had to wait. The traditional estimate is eight hours. Some researchers say several days.", null, 0.25, "D"],
+  ["You can see it: sunlight hits buildings on opposite sides, because the sun crossed the sky during the exposure.", null, 0.25, "E"],
+  ["Today, a sunny day needs about one two-hundred-and-fiftieth of a second. That's roughly seven million times shorter.", "Today, a sunny day needs about 1/250 of a second. That's roughly 7 million times shorter.", 0.25, "F"],
+  ["Eight hours then. A blink now.", null, 0.0, "G"]
+ ],
+ "youtube": {
+  "title": "The First Photograph Took 8 Hours (Maybe Days) to Take",
+  "description": "The oldest surviving photograph taken with a camera, 'View from the Window at Le Gras' by Nicéphore Niépce (1827), was made on a pewter plate coated with bitumen of Judea, which hardens where light hits it; the unhardened parts were washed away. The traditional estimate of the exposure is about eight hours (sunlight strikes buildings on opposite sides), though one researcher who recreated Niépce's process concluded it may have lasted several days. For scale: 8 hours = 28,800 s, and a sunny-day shutter speed of 1/250 s is about 7.2 million times shorter. The building images are a simple sun-angle illustration, not the real photograph.\n#photography #photohistory #shorts",
+  "tags": ["photography", "first photograph", "Niepce", "photo history", "heliography", "View from the Window at Le Gras", "long exposure", "history of photography"],
+  "pinned_comment": "Would you wait 8 hours for a single photo? 👇"
+ },
+ "tiktok_text": "",
+ "sources": [
+  "https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras (made June-July 1827 by Nicéphore Niépce; heliography on a 16.2 x 20.2 cm pewter plate coated with bitumen of Judea, which hardens in light and is washed away where dim; sunlight on buildings on opposite sides suggests ~8 h, the traditional estimate; a researcher recreating his process found several days)",
+  "Check: 8 h x 3,600 = 28,800 s; 28,800 x 250 = 7,200,000. 1/250 s on a sunny day: equal-exposure pair f/11 1/250 from Sunny 16 (f/16 1/125, ISO 100).",
+  "Illustration: sun vectors for latitude 46.8 N, declination +23 deg; face brightness = max(0, n.s), no cast shadows; not the real photo."
+ ],
+ "status": "draft"
+}

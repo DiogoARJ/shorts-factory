@@ -46,4 +46,4 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 43. [before-after] Focal length compression: 24 mm vs 200 mm, same subject size, different background (src: https://en.wikipedia.org/wiki/Perspective_distortion)
 44. [why] Why bokeh is round and onion-ringed in some lenses (aperture blades, aspherical elements) (src: https://en.wikipedia.org/wiki/Bokeh)
 45. [explainer] Polarizing filter: why only 90 degrees to the sun works (src: https://en.wikipedia.org/wiki/Polarizing_filter_(photography))
-46. [history] The first photograph: Niépce, ~1826, roughly 8 hours of exposure (src: https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras)
+46. [DONE 2026-10-11 slot C, glass-editorial] [history] The first photograph: Niépce, 1827, traditional 8 h exposure (disputed).

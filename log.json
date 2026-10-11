@@ -373,5 +373,22 @@
     },
     "duration_s": 44.1,
     "notes": "YouTube only. Backlog #21. Thin-lens defocus simulation at 100% crop, disclosed on screen; c=0.03 mm full frame."
+  },
+  {
+    "date": "2026-10-11",
+    "slug": "2026-10-11-first-photo-niepce",
+    "slot": "C",
+    "format": "history",
+    "style": "glass-editorial",
+    "tone": "storyteller",
+    "voice_sid": 9,
+    "title": "The First Photograph Took 8 Hours (Maybe Days) to Take",
+    "status": "scheduled",
+    "scheduler": "buffer",
+    "scheduled_at": {
+      "youtube": "2026-10-11T18:00:00+01:00"
+    },
+    "duration_s": 39.3,
+    "notes": "YouTube only. Backlog #46 (year corrected to 1827 per Wikipedia). 8 h is the traditional estimate, disputed (several days). Sun-angle illustration disclosed on screen. Niepce name respelled for TTS."
   }
 ]
