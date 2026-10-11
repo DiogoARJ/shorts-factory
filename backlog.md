@@ -32,3 +32,18 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 29. [before-after] NEEDS-DIOGO — one of Diogo's own RAW photos vs his final edit; he narrates 2 lines or we explain the edits.
 30. [from-long-video] NEEDS-DIOGO — best 30–50 s from his latest long video (he sends the link/file).
 31. [DONE 2026-10-10 slot C, impact] [before-after] ISO noise is a light problem (photon shot noise, sqrt(64)=8).
+32. [explainer] Rule of thirds vs golden ratio — where the eye actually goes (src: https://en.wikipedia.org/wiki/Rule_of_thirds)
+33. [why] Why the sky turns blue and sunsets red — Rayleigh scattering for photographers (src: https://en.wikipedia.org/wiki/Rayleigh_scattering)
+34. [data] Megapixels vs print size: how many MP you really need for 30x20 cm / 60x40 cm (src: https://en.wikipedia.org/wiki/Pixel_density)
+35. [explainer] Dynamic range in stops: why shadows are noisier than highlights (src: https://en.wikipedia.org/wiki/Dynamic_range)
+36. [myth] "Crop sensors multiply your zoom" — field of view vs focal length (src: https://en.wikipedia.org/wiki/Crop_factor)
+37. [before-after] Diffraction at f/22 vs f/8 — why too small an aperture goes soft (simulated Airy disk) (src: https://en.wikipedia.org/wiki/Diffraction-limited_system)
+38. [explainer] Reciprocal rule: shutter 1/focal length — and why high-MP sensors break it (src: https://en.wikipedia.org/wiki/Image_stabilization)
+39. [why] Why the moon looks huge near the horizon but photographs the same size (src: https://en.wikipedia.org/wiki/Moon_illusion)
+40. [data] Rolling shutter vs global shutter — the bent propeller, simulated (src: https://en.wikipedia.org/wiki/Rolling_shutter)
+41. [explainer] 500 rule for stars and why it needs updating (NPF rule) (src: https://en.wikipedia.org/wiki/Astrophotography)
+42. [myth] "RAW is just a bigger JPEG" — what RAW actually stores (src: https://en.wikipedia.org/wiki/Raw_image_format)
+43. [before-after] Focal length compression: 24 mm vs 200 mm, same subject size, different background (src: https://en.wikipedia.org/wiki/Perspective_distortion)
+44. [why] Why bokeh is round and onion-ringed in some lenses (aperture blades, aspherical elements) (src: https://en.wikipedia.org/wiki/Bokeh)
+45. [explainer] Polarizing filter: why only 90 degrees to the sun works (src: https://en.wikipedia.org/wiki/Polarizing_filter_(photography))
+46. [history] The first photograph: Niépce, ~1826, roughly 8 hours of exposure (src: https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras)
