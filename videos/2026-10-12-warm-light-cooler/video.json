@@ -1,0 +1,37 @@
+{
+ "slug": "2026-10-12-warm-light-cooler",
+ "format": "why",
+ "style": "impact",
+ "topic": "Why 'warm' (orange) light has a LOWER color temperature than 'cool' (blue) light: black-body physics runs opposite to the aesthetic labels. Hotter glow = shorter peak wavelength (Wien's law): candle 1,850 K orange, daylight 6,500 K white, a 3,000 K filament peaks in infrared at 966 nm, the Sun (~5,800 K) near 500 nm.",
+ "voice_sid": 6,
+ "tone": "punchy",
+ "speed": 1.0,
+ "chords": ["Am", "F", "C", "G"],
+ "bpm": 92,
+ "hits": [["A", "cooler"], ["E", "infrared"]],
+ "cta": "FOLLOW · CAMERA PHYSICS, SIMPLIFIED",
+ "lines": [
+  ["Warm light is actually the cooler light.", "Warm light is actually the cooler light.", 0.25, "A"],
+  ["Kelvin measures temperature. Heat something until it glows, and its color is set by how hot it is.", "Kelvin measures temperature. Heat something until it glows, and its color is set by how hot it is.", 0.25, "B"],
+  ["A candle flame, eighteen fifty Kelvin, glows orange. Daylight, sixty-five hundred, is white. Hotter means bluer.", "A candle flame, 1,850 K, glows orange. Daylight, 6,500 K, is white. Hotter means bluer.", 0.25, "C"],
+  ["Blame Veen's law. The hotter something is, the shorter the wavelength it glows brightest at.", "Blame Wien's law. The hotter something is, the shorter the wavelength it glows brightest at.", 0.25, "D"],
+  ["The Sun, near fifty-eight hundred Kelvin, peaks in the green. A three-thousand-Kelvin filament peaks in infrared, which you can't even see.", "The Sun, near 5,800 K, peaks in the green. A 3,000 K filament peaks in infrared, which you can't even see.", 0.25, "E"],
+  ["So why call orange warm? Because of how it feels. The physics runs the other way.", "So why call orange warm? Because of how it feels. The physics runs the other way.", 0.25, "F"],
+  ["Remember it like this. Low Kelvin, orange light. High Kelvin, blue light.", "Remember it like this: low Kelvin, orange light. High Kelvin, blue light.", 0.25, "G"],
+  ["Warm light is the cooler light.", null, 0.0, "H"]
+ ],
+ "youtube": {
+  "title": "Warm Light Is the COOLER Light (Why Low Kelvin = Orange)",
+  "description": "The 'warm' orange light on your camera's Kelvin scale is the lower-temperature light. Heat any object until it glows and its color depends on how hot it is: roughly 1,000 K looks red, a candle flame (about 1,850 K) orange, daylight (about 6,500 K) white, and hotter still shifts toward blue. Wien's displacement law (peak wavelength = 2,898 um*K / T) explains it: about 5,800 K peaks near 500 nm (the Sun), while 3,000 K peaks near 966 nm, in the infrared. 'Warm' and 'cool' describe how a color feels, not its temperature, so the physics runs the opposite way. The colors and curves are computed from Planck's law for an ideal black body; real lamps are approximations.\n#photography #whitebalance #shorts",
+  "tags": ["photography", "color temperature", "Kelvin", "white balance", "warm light", "Wien's law", "black body", "photography tips", "camera physics"],
+  "pinned_comment": "Do you shoot in warm light or cool light? Tell me your favorite time of day 👇"
+ },
+ "tiktok_text": "",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Color_temperature (candle flame 1,850 K, daylight 6,500 K; warm/cool labels are the opposite of black-body physics; Sun effective temperature 5,772 K)",
+  "https://en.wikipedia.org/wiki/Wien%27s_displacement_law (b = 2.898e-3 m*K = 2,898 um*K; Sun 5,778 K peaks near 501 nm; ~300 K peaks near 10 um)",
+  "https://en.wikipedia.org/wiki/Black-body_radiation (1000 K looks red, 6000 K looks white; hotter bodies emit more orange, yellow, green, then blue light)",
+  "Computed here: Planck's law, CIE 1931 colour matching functions via the Wyman/Sloan/Shirley 2013 multi-lobe fit, XYZ -> sRGB (chromaticity only). Check: 6,500 K gives x,y = 0.3135, 0.3237 (matches the Planckian locus); Wien peaks 3,000 K = 966 nm, 5,778 K = 501 nm, 10,000 K = 290 nm."
+ ],
+ "status": "draft"
+}

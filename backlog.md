@@ -12,7 +12,7 @@ Format tags: explainer | myth | before-after | why | data | history | from-long-
 9. ~~[why] Why bokeh balls are round, polygons or cat-eyes — aperture blades + vignetting.~~ (2026-10-06 slot B, impact; 7 vs 10 blades at f/8, barrel-vignetting cat's eyes)
 10. ~~[myth] "Crop sensors give you more zoom" — it's a crop of the same image.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 14:00 slot B — do NOT pick)
 11. ~~[data] RAW vs JPEG: 14-bit = 16,384 levels vs 8-bit = 256 per channel; banding demo.~~ (RESERVED 2026-10-03 batch for Mon 5 Oct 10:00 slot A — do NOT pick)
-12. [why] Why "warm" light has a LOWER colour temperature (Kelvin, black-body).
+12. [DONE 2026-10-12 slot 1, impact] [why] Why "warm" light has a LOWER colour temperature (Kelvin, black-body).
 13. ~~[explainer] Diffraction: why f/22 is softer than f/8 (Airy disk vs pixel size).~~ (2026-10-07 slot A, poster-editorial)
 14. ~~[history] The first photograph (Niépce, ~1826/27) — exposure of hours/days; compare with 1/8000 s today.~~ (RESERVED 2026-10-03 batch for Sun 4 Oct 10:00 slot A — do NOT pick)
 15. ~~[why] Why the Sunny 16 rule works.~~ (done 2026-10-09 slot C, poster-editorial; EV 15 maths + 4 equal-exposure frames)
