@@ -407,5 +407,20 @@
   },
   "duration_s": 42.2,
   "notes": "YouTube only. Backlog #12. Colours from Planck + CIE 1931 (Wyman fit), disclosed as ideal black body in description."
+ },
+ {
+  "date": "2026-10-12",
+  "slug": "2026-10-12-avians-pov-reel",
+  "slot": "1b",
+  "format": "talking",
+  "style": "own-footage",
+  "title": "POV: Event Photographer (GoPro) #photography",
+  "status": "scheduled",
+  "scheduler": "buffer",
+  "scheduled_at": {
+   "youtube": "2026-10-12T13:00:00+01:00"
+  },
+  "duration_s": 26.3,
+  "notes": "Diogo's GoPro POV reel (approved 2026-10-11), scheduled at his request 2026-10-12 13:00. Warm-light Short was also queued 13:00 and cannot be removed via Zapier."
  }
 ]
