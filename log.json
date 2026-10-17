@@ -422,5 +422,80 @@
   },
   "duration_s": 26.3,
   "notes": "Diogo's GoPro POV reel (approved 2026-10-11), scheduled at his request 2026-10-12 13:00. Warm-light Short was also queued 13:00 and cannot be removed via Zapier."
+ },
+ {
+  "date": "2026-10-18",
+  "slug": "2026-10-16-podcast-clip3_gorjeta",
+  "slot": "1",
+  "format": "podcast-clip",
+  "style": "own-footage",
+  "title": "A câmara morreu a meio do trabalho (e deram-me gorjeta)",
+  "status": "scheduled",
+  "scheduler": "buffer",
+  "scheduled_at": {
+   "youtube": "2026-10-18T13:00:00+01:00"
+  },
+  "duration_s": 35.3,
+  "notes": "PT podcast clip (Diogo + Duarte), approved by Diogo 2026-10-17. File videos/2026-10-16-podcast-clips/clip3_gorjeta.mp4"
+ },
+ {
+  "date": "2026-10-19",
+  "slug": "2026-10-16-podcast-clip5_acharamcaro",
+  "slot": "1",
+  "format": "podcast-clip",
+  "style": "own-footage",
+  "title": "Fizemos preço de amigo e mesmo assim acharam caro",
+  "status": "scheduled",
+  "scheduler": "buffer",
+  "scheduled_at": {
+   "youtube": "2026-10-19T13:00:00+01:00"
+  },
+  "duration_s": 23.5,
+  "notes": "PT podcast clip (Diogo + Duarte), approved by Diogo 2026-10-17. File videos/2026-10-16-podcast-clips/clip5_acharamcaro.mp4"
+ },
+ {
+  "date": "2026-10-20",
+  "slug": "2026-10-16-podcast-clip2_camara",
+  "slot": "1",
+  "format": "podcast-clip",
+  "style": "own-footage",
+  "title": "Porque é tão difícil falar para a câmara?",
+  "status": "scheduled",
+  "scheduler": "buffer",
+  "scheduled_at": {
+   "youtube": "2026-10-20T13:00:00+01:00"
+  },
+  "duration_s": 40.5,
+  "notes": "PT podcast clip (Diogo + Duarte), approved by Diogo 2026-10-17. File videos/2026-10-16-podcast-clips/clip2_camara.mp4"
+ },
+ {
+  "date": "2026-10-21",
+  "slug": "2026-10-16-podcast-clip4_videografo",
+  "slot": "1",
+  "format": "podcast-clip",
+  "style": "own-footage",
+  "title": "Faltavam 24 horas para a entrega e o videógrafo desistiu",
+  "status": "scheduled",
+  "scheduler": "buffer",
+  "scheduled_at": {
+   "youtube": "2026-10-21T13:00:00+01:00"
+  },
+  "duration_s": 57.8,
+  "notes": "PT podcast clip (Diogo + Duarte), approved by Diogo 2026-10-17. File videos/2026-10-16-podcast-clips/clip4_videografo.mp4"
+ },
+ {
+  "date": "2026-10-22",
+  "slug": "2026-10-16-podcast-clip1_softbox",
+  "slot": "1",
+  "format": "podcast-clip",
+  "style": "own-footage",
+  "title": "Construí uma softbox com cartão e papel vegetal",
+  "status": "scheduled",
+  "scheduler": "buffer",
+  "scheduled_at": {
+   "youtube": "2026-10-22T13:00:00+01:00"
+  },
+  "duration_s": 37.9,
+  "notes": "PT podcast clip (Diogo + Duarte), approved by Diogo 2026-10-17. File videos/2026-10-16-podcast-clips/clip1_softbox.mp4"
  }
 ]
