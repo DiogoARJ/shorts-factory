@@ -1,60 +1,59 @@
-# Assistente pessoal (Jarvis)
+# Jarvis: assistente pessoal do Diogo
 
-O objetivo é um assistente que vem ter com o Diogo: manda mensagens, ele responde, e o assistente faz as coisas.
+Falas com ele pelo **Telegram**: ele manda-te mensagens, tu respondes e ele faz as coisas.
 Vai aprendendo à medida que falam.
 
-## Como está montado
+**Custo extra: zero.** Usa o **Claude Code com a tua subscrição Claude Pro**, através dos *channels* oficiais
+do Claude Code com o plugin do Telegram. Não usa a API.
+(O OpenJarvis foi abandonado: com o Claude por dentro exigia a API paga.)
 
-| Fase | O quê | Onde | Estado |
-|---|---|---|---|
-| 1 | Briefing da manhã com notificação no telemóvel | Tarefa agendada no Claude (cloud) | **Ativo desde 2026-11-04** |
-| 2 | Alertas ao fim do dia (só quando há algo) | Tarefa agendada no Claude | Depois de uns dias da fase 1 |
-| 4 | Conversa nos dois sentidos pelo Telegram | OpenJarvis no PC do Diogo + API do Claude | **Dia 12/11**, com este kit |
-| 5 | Chamadas telefónicas (urgências) | Twilio Voice | Opcional, mais tarde |
+## Como funciona
+- O Claude Code corre no teu PC ("Diogos"), nesta pasta, ligado ao teu bot do Telegram.
+- A personalidade está em `CLAUDE.md` e `persona/SOUL.md`. O que sabe de ti está em `persona/USER.md`
+  e as tuas regras em `persona/MEMORY.md`. Quando lhe dizes algo, ele atualiza estes ficheiros.
+- Todas as manhãs manda-te o briefing pelo Telegram.
+- **Limites:** o PC tem de estar ligado, e as conversas gastam os limites de uso do teu plano Pro.
+  Os channels ainda estão em *research preview*.
 
-(A fase 3, só envio pelo Telegram via Zapier, foi saltada: a fase 4 substitui-a.)
+Enquanto o PC não está montado, o **briefing da manhã na cloud** continua a chegar como notificação
+da app do Claude. Lê e atualiza a mesma memória.
 
-A **memória é partilhada**. `persona/USER.md` e `persona/MEMORY.md` são lidos e atualizados pelo briefing
-desde já. No dia 12 são copiados para o Jarvis, que continua a partir do que já aprendeu.
+## Instalar no PC (≈15 min)
 
-## Dia 12: instalar (≈30–60 min)
+**1. No telemóvel (2 min, podes fazer já):** no Telegram abre o **@BotFather**, envia `/newbot`,
+escolhe um nome (ex.: "Jarvis do Diogo") e um username acabado em `bot`. Guarda o **token**.
 
-**Antes, no telemóvel (5 min):**
-1. **Bot do Telegram.** No Telegram, abre o `@BotFather`, envia `/newbot`, dá-lhe um nome (ex.: "Jarvis do Diogo")
-   e guarda o **token** que ele te dá.
-2. **Chave da API do Claude.** Em console.anthropic.com cria a conta, carrega créditos (começa com 10–20 $)
-   e cria uma **API key**. A API paga-se à parte da subscrição do Claude.
+**2. No PC, numa PowerShell:**
+```powershell
+git clone https://github.com/diogoarj/shorts-factory
+cd shorts-factory; git checkout ccr-7b16cb2d-vzbbx3; cd assistente
+Set-ExecutionPolicy -Scope Process Bypass; .\instalar.ps1
+```
+O script instala o Claude Code, o Bun e o Git, faz o Jarvis arrancar sempre que entras no Windows
+e impede o PC de adormecer quando está ligado à corrente.
 
-**No PC:**
-1. Instala o Python 3.12 e o Git se ainda não estiverem instalados (o instalador tenta fazê-lo sozinho com o winget).
-2. Abre a **PowerShell como Administrador** nesta pasta (`assistente`) e corre:
-   ```powershell
-   Set-ExecutionPolicy -Scope Process Bypass; .\instalar.ps1
-   ```
-3. O script pede o token e a chave, pede-te para mandares "ola" ao bot, instala o OpenJarvis, copia a
-   personalidade e a memória, deixa o PC sem adormecer (quando ligado à corrente) e manda-te uma mensagem de teste.
-4. Se o bot não responder: **reinicia o PC** (para o serviço apanhar as chaves novas). Se mesmo assim não der,
-   corre `jarvis doctor`.
+**3. Parte interativa** (o script mostra-a no fim):
+```
+claude
+/plugin install telegram@claude-plugins-official      (escolhe "user scope")
+/telegram:configure <TOKEN>
+/exit
+.\arrancar.ps1
+```
+Manda uma mensagem ao bot. Ele responde com um código. No terminal:
+```
+/telegram:access pair <CODIGO>
+/telegram:access policy allowlist
+```
+Nas primeiras respostas o Claude Code pode pedir permissão no terminal. Escolhe
+**"sim, e não perguntar outra vez"**. Depois disso já não precisas do terminal.
 
-**Nota:** a instalação pode pedir as *Visual Studio Build Tools*. É um download grande, mas basta aceitar.
-
-## Como personalizar
-
-Fala com ele. Exemplos:
+## Personalizar
+Fala com ele no Telegram. Exemplos:
 - "Não me mandes nada ao fim de semana."
-- "O meu editor chama-se X; emails dele são sempre prioritários."
+- "Emails do X são sempre prioritários."
 - "Esquece o que disse sobre Y."
 
-Ele guarda isto em `USER.md` e `MEMORY.md` (em `%USERPROFILE%\.openjarvis`) e confirma numa linha.
-
-## Custos (estimativa)
-- OpenJarvis: grátis (open-source, Apache-2.0).
-- API do Claude: paga por uso. Com conversa diária normal, conta com alguns dólares por mês;
-  vê o consumo real em console.anthropic.com nos primeiros dias.
-- O PC tem de estar ligado para o bot responder.
-
 ## Segurança
-- Só o teu chat do Telegram pode falar com o bot (`allowed_chat_ids`).
-- O servidor só escuta no próprio PC (127.0.0.1).
-- As chaves ficam em variáveis de ambiente do Windows e nunca no repositório.
-- Ações irreversíveis (enviar, publicar, apagar, pagar) precisam sempre do teu "sim".
+- Só a tua conta do Telegram passa (`allowlist`). Todas as outras mensagens são ignoradas.
+- Enviar, publicar, apagar ou pagar só com o teu "sim".
