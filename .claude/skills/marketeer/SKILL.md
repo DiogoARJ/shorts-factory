@@ -161,7 +161,7 @@ Guias de terceiros dentro desta skill, por departamento: `ferramentas/marketing/
 | Site e conversão | `cro`, `signup`, `onboarding`, `popups`, `paywalls`, `churn-prevention`, `free-tools` |
 | SEO | `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `site-architecture`, `link-building`, `directory-submissions`, `aso` |
 | Planeamento | `marketing-plan`, `marketing-council`, `marketing-loops`, `launch`, `marketing-psychology` |
-| Design de páginas e apresentações | `design/ui-ux-pro-max`, `design/design-system`, `design/ui-styling`, `design/frontend-design`, `design/design`, `design/slides`, `design/taste-skill` (sites e landing pages; as demos de ícones, cenas e momentos foram retiradas para caber no upload) |
+| Design de páginas e apresentações | `design/ui-ux-pro-max`, `design/design-system`, `design/ui-styling`, `design/frontend-design`, `design/design`, `design/slides`, `design/taste-skill` (sites e landing pages). Para caber no limite de 30 MB do upload: demos da taste-skill retiradas, fotos de exemplo comprimidas e fontes do `ui-styling` removidas (usar Google Fonts) |
 
 | Finanças | `financas/journal-entry`, `financas/journal-entry-prep`, `financas/reconciliation`, `financas/financial-statements`, `financas/variance-analysis`, `financas/close-management`, `financas/audit-support`, `financas/sox-testing` |
 | Jurídico | `juridico/review-contract`, `juridico/triage-nda`, `juridico/compliance-check`, `juridico/legal-risk-assessment`, `juridico/vendor-check`, `juridico/legal-response`, `juridico/meeting-briefing`, `juridico/brief`, `juridico/signature-request` |

@@ -170,7 +170,7 @@ Embed conceptual DNA without announcing:
 - Large sizes for impact moments
 
 **Font integration:**
-- Search `./canvas-fonts` directory
+- Fonts: download from Google Fonts (the bundled canvas-fonts folder was removed to fit the upload limit)
 - Download needed fonts
 - Bring typography onto canvas
 - Part of art, not typeset digitally
