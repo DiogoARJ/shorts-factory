@@ -1,6 +1,6 @@
 # Índice das ferramentas
 
-Gerado a partir das descrições originais (em inglês). Abrir `ferramentas/<departamento>/<nome>/GUIA.md`.
+Gerado a partir das descrições originais (em inglês). Abrir `ferramentas/<departamento>/<nome>.md` (exceção: `design/ui-ux-pro-max/GUIA.md`).
 
 ## Marketing (coreyhaines31/marketingskills @96798cf, MIT)
 
@@ -90,10 +90,10 @@ Gerado a partir das descrições originais (em inglês). Abrir `ferramentas/<dep
 - `ui-ux-pro-max`: UI/UX design intelligence for web, mobile, and desktop.
 
 ## Finanças (anthropics/knowledge-work-plugins @ab4cb1c, Apache 2.0)
-Ler primeiro `ferramentas/financas/GUIA.md`. Guias: audit-support, close-management, financial-statements, journal-entry, journal-entry-prep, reconciliation, sox-testing, variance-analysis.
+Ler primeiro `ferramentas/financas/_LER-PRIMEIRO.md`. Guias: audit-support, close-management, financial-statements, journal-entry, journal-entry-prep, reconciliation, sox-testing, variance-analysis.
 
 ## Jurídico (anthropics/knowledge-work-plugins @ab4cb1c, Apache 2.0)
-Ler primeiro `ferramentas/juridico/GUIA.md`. Guias: brief, compliance-check, legal-response, legal-risk-assessment, meeting-briefing, review-contract, signature-request, triage-nda, vendor-check.
+Ler primeiro `ferramentas/juridico/_LER-PRIMEIRO.md`. Guias: brief, compliance-check, legal-response, legal-risk-assessment, meeting-briefing, review-contract, signature-request, triage-nda, vendor-check.
 
 ## Design extra
-- `taste-skill` (Leonxlnx/taste-skill @9b4bf93, MIT): sites e landing pages profissionais, anti-"cara de IA". Demos de ícones, cenas e momentos retiradas para caber no upload.
+- `taste-skill` (Leonxlnx/taste-skill @9b4bf93, MIT): sites e landing pages profissionais, anti-"cara de IA". Só o guia, as referências e o kit base (system.css, system.js, starter.html); imagens, demos e o verificador ficaram no original (link no topo do ficheiro).
