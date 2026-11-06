@@ -1,6 +1,6 @@
 ---
 name: "marketeer"
-description: "Usar quando o Diogo carrega a skill Marketeer com uma pasta de conta (agência ou cliente): planear conteúdo TOFU/MOFU/BOFU, guiões, planos de gravação, edição em versões, Trial Reels e aprender com os resultados. Inclui 13 ferramentas (voz, ganchos, guiões de Reels, copy, legendas, capas, pontuação, preços, iscos, anúncios, cold email, lançamentos, SEO)."
+description: "Usar quando o Diogo carrega a skill Marketeer com uma pasta de conta (agência ou cliente): planear conteúdo TOFU/MOFU/BOFU, guiões, planos de gravação, edição em versões, Trial Reels e aprender com os resultados. Inclui 78 ferramentas de marketing, redes sociais e design (ganchos, guiões de Reels, copy, capas, anúncios, SEO, preços, cold email, lançamentos, páginas)."
 ---
 
 # Marketeer
@@ -128,27 +128,42 @@ Criar `_marketeer/guioes/AAAA-MM-DD-titulo.md` com:
 ## 9. Clientes
 Cada cliente tem a sua pasta com a mesma estrutura e o seu `marca.md`. Nada de publicar em contas de clientes sem o sim do Diogo, e o Diogo confirma que o cliente aprovou. Os resultados de um cliente não entram nas aprendizagens de outro, mas padrões gerais confirmados em várias contas podem ir para uma nota da agência.
 
-## 10. Ferramentas (skills externas incluídas)
-Guias de terceiros em `ferramentas/<nome>/GUIA.md` (licença MIT; marketingskills de Corey Haines @96798cf, social-media-skills de Charlie Hills @10ca79c). Abrir só o guia do passo em curso e as `references/` que ele indicar.
+## 10. Ferramentas da agência
+Guias de terceiros dentro desta skill, por departamento: `ferramentas/marketing/` (53), `ferramentas/redes/` (17) e `ferramentas/design/` (8). Lista completa com uma linha cada em `ferramentas/INDICE.md`. Cada ferramenta é `ferramentas/<departamento>/<nome>/GUIA.md`. Abrir só o guia do passo em curso e as `references/` que ele indicar. Licenças em `ferramentas/licencas/`.
 
-**Precedência:** as regras desta skill e `aprendizagens.md` ganham sempre aos guias. Em concreto: pt-PT, nada publicado sem o sim do Diogo, só Trial Reels, sem urgência falsa nem táticas de pressão, sem números ou testemunhos inventados, dizer o custo antes de gastar créditos. Onde um guia pede `.agents/product-marketing.md`, `about-me.md` ou `voice.md`, usar `_marketeer/marca.md` e `_marketeer/voz.md`. Os guias de redes foram escritos para LinkedIn: adaptar o formato a Reels/Shorts (texto no ecrã, fala, 15 a 35 s), mantendo o método.
+Skills irmãs, instaladas à parte (usar quando a tarefa for delas): `design-taste-frontend` (sites e landing pages com bom gosto), `agencia-financas` (fecho do mês, reconciliações, desvios), `agencia-juridico` (contratos, NDAs, RGPD e publicidade). Os documentos (Word, PDF, PowerPoint, Excel) usam as skills `docx`, `pdf`, `pptx` e `xlsx`, já instaladas.
 
-| Passo do fluxo | Ferramenta | Para quê |
+**Precedência:** as regras desta skill e `aprendizagens.md` ganham sempre aos guias. Em concreto: pt-PT, nada publicado sem o sim do Diogo, só Trial Reels, sem urgência falsa nem táticas de pressão (atenção a `marketing-psychology`, `popups` e `paywalls`: só as versões honestas), sem números ou testemunhos inventados, dizer o custo antes de gastar créditos ou usar APIs pagas (Apify, Gemini, geradores de imagem). Onde um guia pede `.agents/product-marketing.md`, `about-me.md` ou `voice.md`, usar `_marketeer/marca.md` e `_marketeer/voz.md`. Os guias de redes foram escritos para LinkedIn: adaptar o formato a Reels/Shorts (texto no ecrã, fala, 15 a 35 s), mantendo o método. Contactos frios e e-mail cumprem o RGPD.
+
+### No fluxo de conteúdo
+| Passo | Ferramenta | Para quê |
 |---|---|---|
-| §1 Arranque | `voice-builder` | Entrevista curta + 3 a 5 amostras → `_marketeer/voz.md` (tom, frases, palavras proibidas). Fazer uma vez por conta. |
-| §2 Fundamentos / BOFU | `pricing` | Pacotes, níveis e preço da oferta (avença, versões premium e económica). |
-| §2 / BOFU | `lead-magnets` | Isco para a palavra-chave nos comentários (guia, checklist, template) que leva à DM. |
-| §3 Pesquisa | `reels-scripting` | Desmontar um outlier (transcrição, gancho, estrutura) e escrever o nosso guião com o mesmo molde. A via automática usa Apify e Gemini: pedir as chaves e dizer o custo antes; sem chaves, o Diogo cola a transcrição. |
-| §5 Ganchos | `hook-generator` | 6 ângulos de gancho; escolher 3 de tipos diferentes para as versões A, B e C. Só com factos dados ou experiência real do Diogo. |
-| §5 Guião e legenda | `copywriting`, `post-writer` | Frases curtas, proposta de valor, CTA; legenda do Reel na voz de `voz.md`. |
-| §5 Capa | `youtube-thumbnail` | Capa/miniatura para Shorts e vídeos longos, com a paleta de `marca.md`. |
-| §6 Antes de aprovar | `post-scorer` | Rever o guião contra o histórico real de `registo.csv` (não contra médias genéricas). |
-| §7 Anúncios | `ad-creative` | Variações de anúncio a partir das vencedoras dos Trial Reels (mesma lógica: mudar uma coisa de cada vez). |
-| BOFU / clientes | `cold-email` | Prospeção a negócios para a agência. Só honesta, personalizada e com opção de saída; cumprir RGPD. |
-| Lançamentos | `launch` | Plano de lançamento de uma oferta ou serviço novo (pré, dia, depois). |
-| Site da conta | `seo-audit` | Auditoria SEO do site da agência ou do cliente, quando o perfil leva tráfego para lá. |
+| §1 Arranque | `redes/voice-builder` | Entrevista + 3 a 5 amostras → `_marketeer/voz.md`. Uma vez por conta. |
+| §1 Arranque | `marketing/product-marketing`, `marketing/customer-research`, `design/brand` | Posicionamento, voz do cliente e identidade visual para `marca.md`. |
+| §2 Fundamentos | `marketing/offers`, `marketing/pricing` | Oferta e pacotes (avença, premium, económica). |
+| §3 Organizar | `marketing/content-strategy`, `redes/content-matrix`, `marketing/marketing-ideas` | Pilares × formatos → `ideias.md`. |
+| §3 Pesquisa | `redes/niche-research`, `marketing/competitors`, `marketing/competitor-profiling`, `marketing/reverse-engineer-marketing` | Notícias do nicho e o que a concorrência faz. |
+| §3 Outliers | `redes/reels-scripting` | Desmontar um outlier e escrever o nosso guião com o mesmo molde. Via automática usa Apify e Gemini (pedir chaves e dizer o custo); sem chaves, o Diogo cola a transcrição. |
+| §5 Ganchos | `redes/hook-generator` | 6 ângulos; escolher 3 de tipos diferentes para A, B e C. |
+| §5 Guião e legenda | `marketing/copywriting`, `marketing/copy-editing`, `marketing/video`, `marketing/social`, `redes/post-writer`, `redes/post-formatter` | Guião curto, legenda na voz de `voz.md`, specs por plataforma. |
+| §5 Visuais | `redes/youtube-thumbnail`, `redes/graphic-designer`, `redes/gemini-carousel`, `redes/gemini-infographic`, `redes/quote-post`, `design/banner-design`, `marketing/image` | Capas, carrosséis, infografias e banners com a paleta de `marca.md`. |
+| §5 CTA | `marketing/lead-magnets`, `redes/pinned-comment` | Isco da palavra-chave e comentário fixado. |
+| §6 Antes de aprovar | `redes/post-scorer` | Rever contra o histórico real de `registo.csv`. |
+| §7 Medir | `marketing/ab-testing`, `marketing/analytics`, `redes/analytics-dashboard` | Desenho do teste A/B/C e leitura dos resultados. |
+| Perfil | `redes/profile-optimizer` | Bio e perfil como funil (Nik Setting). |
 
-Ficaram de fora do post de origem (não são marketing de conteúdo): Design (taste-skill, ui-ux-pro-max, frontend-design: design de sites), Finanças e Jurídico (plugins da Anthropic) e Documentos (docx, pdf, pptx, xlsx, que já estão instalados como skills próprias).
+### Para a agência e os clientes
+| Área | Ferramentas |
+|---|---|
+| Anúncios pagos | `ads`, `ad-creative`, `conversion-tracking`, `attribution` |
+| Captação e vendas | `cold-email`, `prospecting`, `sales-enablement`, `revops`, `referrals`, `influencer-marketing`, `co-marketing`, `community-marketing`, `events`, `public-relations` |
+| E-mail e SMS | `emails`, `sms` |
+| Site e conversão | `cro`, `signup`, `onboarding`, `popups`, `paywalls`, `churn-prevention`, `free-tools` |
+| SEO | `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `site-architecture`, `link-building`, `directory-submissions`, `aso` |
+| Planeamento | `marketing-plan`, `marketing-council`, `marketing-loops`, `launch`, `marketing-psychology` |
+| Design de páginas e apresentações | `design/ui-ux-pro-max`, `design/design-system`, `design/ui-styling`, `design/frontend-design`, `design/design`, `design/slides` (e a skill `design-taste-frontend`) |
+
+Todas as de marketing estão em `ferramentas/marketing/`. Alguns scripts de design (`design/scripts/logo`, `design-system/scripts`) chamam APIs pagas ou descarregam imagens: correr só com o sim do Diogo.
 
 ## Fontes dos princípios
 Hormozi (Equação de Valor, 3 P, 4 caixas do cliente-tipo, Core Four, CLOSER, 8 formas de valer mais por cliente, foco num canal/oferta/cliente-tipo, comparar vencedores com perdedores, ganchos por nível de consciência, repetição); Ava Yuergens (outliers 5X, gancho triplo, 7 tipos de gancho, CTA por palavra-chave); Devin Jatho (retenção, 3 primeiros segundos); Scott Oldford (3 faixas, Relevância/Omnipresença/Intimidade); Eli Wilde (Trindade da Confiança); Taki Moore (Atrair/Converter/Entregar, 5-1-30); Brian Mark (oferta na DM); Josh Lyons (diagnóstico honesto); Nik Setting (perfil como funil, mecanismo com nome). Dossiers completos: /mnt/project-files/conselho/ no projeto "Diogo — Conteúdo & Redes". Os números que os gurus dizem de si próprios não estão verificados.
