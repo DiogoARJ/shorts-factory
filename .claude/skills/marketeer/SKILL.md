@@ -1,6 +1,6 @@
 ---
 name: "marketeer"
-description: "Usar quando o Diogo carrega a skill Marketeer com uma pasta de conta (agência ou cliente): planear conteúdo TOFU/MOFU/BOFU, guiões, planos de gravação, edição em versões, Trial Reels e aprender com os resultados. Inclui 78 ferramentas de marketing, redes sociais e design (ganchos, guiões de Reels, copy, capas, anúncios, SEO, preços, cold email, lançamentos, páginas)."
+description: "Usar quando o Diogo carrega a skill Marketeer com uma pasta de conta (agência ou cliente): planear conteúdo TOFU/MOFU/BOFU, guiões, planos de gravação, edição em versões, Trial Reels e aprender com os resultados. Também para todo o trabalho da agência: 53 guias de marketing (anúncios, SEO, copy, preços, ofertas, cold email, lançamentos, CRO, e-mail), 17 de redes sociais (ganchos, guiões de Reels, legendas, capas, carrosséis), 9 de design (sites, landing pages, marca, banners, apresentações), 8 de finanças (fecho do mês, reconciliações, desvios) e 9 jurídicos (contratos, NDAs, RGPD, publicidade)."
 ---
 
 # Marketeer
@@ -129,9 +129,9 @@ Criar `_marketeer/guioes/AAAA-MM-DD-titulo.md` com:
 Cada cliente tem a sua pasta com a mesma estrutura e o seu `marca.md`. Nada de publicar em contas de clientes sem o sim do Diogo, e o Diogo confirma que o cliente aprovou. Os resultados de um cliente não entram nas aprendizagens de outro, mas padrões gerais confirmados em várias contas podem ir para uma nota da agência.
 
 ## 10. Ferramentas da agência
-Guias de terceiros dentro desta skill, por departamento: `ferramentas/marketing/` (53), `ferramentas/redes/` (17) e `ferramentas/design/` (8). Lista completa com uma linha cada em `ferramentas/INDICE.md`. Cada ferramenta é `ferramentas/<departamento>/<nome>/GUIA.md`. Abrir só o guia do passo em curso e as `references/` que ele indicar. Licenças em `ferramentas/licencas/`.
+Guias de terceiros dentro desta skill, por departamento: `ferramentas/marketing/` (53), `ferramentas/redes/` (17), `ferramentas/design/` (9), `ferramentas/financas/` (8) e `ferramentas/juridico/` (9). Lista completa com uma linha cada em `ferramentas/INDICE.md`. Cada ferramenta é `ferramentas/<departamento>/<nome>/GUIA.md`. Abrir só o guia do passo em curso e as `references/` que ele indicar. Licenças em `ferramentas/licencas/`.
 
-Skills irmãs, instaladas à parte (usar quando a tarefa for delas): `design-taste-frontend` (sites e landing pages com bom gosto), `agencia-financas` (fecho do mês, reconciliações, desvios), `agencia-juridico` (contratos, NDAs, RGPD e publicidade). Os documentos (Word, PDF, PowerPoint, Excel) usam as skills `docx`, `pdf`, `pptx` e `xlsx`, já instaladas.
+**Finanças e jurídico:** antes de qualquer tarefa destas áreas, ler primeiro `ferramentas/financas/GUIA.md` ou `ferramentas/juridico/GUIA.md` (tabela de tarefas e regras para Portugal e a UE) e só depois o guia da tarefa. Os documentos (Word, PDF, PowerPoint, Excel) usam as skills `docx`, `pdf`, `pptx` e `xlsx`, já instaladas.
 
 **Precedência:** as regras desta skill e `aprendizagens.md` ganham sempre aos guias. Em concreto: pt-PT, nada publicado sem o sim do Diogo, só Trial Reels, sem urgência falsa nem táticas de pressão (atenção a `marketing-psychology`, `popups` e `paywalls`: só as versões honestas), sem números ou testemunhos inventados, dizer o custo antes de gastar créditos ou usar APIs pagas (Apify, Gemini, geradores de imagem). Onde um guia pede `.agents/product-marketing.md`, `about-me.md` ou `voice.md`, usar `_marketeer/marca.md` e `_marketeer/voz.md`. Os guias de redes foram escritos para LinkedIn: adaptar o formato a Reels/Shorts (texto no ecrã, fala, 15 a 35 s), mantendo o método. Contactos frios e e-mail cumprem o RGPD.
 
@@ -161,9 +161,12 @@ Skills irmãs, instaladas à parte (usar quando a tarefa for delas): `design-tas
 | Site e conversão | `cro`, `signup`, `onboarding`, `popups`, `paywalls`, `churn-prevention`, `free-tools` |
 | SEO | `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `site-architecture`, `link-building`, `directory-submissions`, `aso` |
 | Planeamento | `marketing-plan`, `marketing-council`, `marketing-loops`, `launch`, `marketing-psychology` |
-| Design de páginas e apresentações | `design/ui-ux-pro-max`, `design/design-system`, `design/ui-styling`, `design/frontend-design`, `design/design`, `design/slides` (e a skill `design-taste-frontend`) |
+| Design de páginas e apresentações | `design/ui-ux-pro-max`, `design/design-system`, `design/ui-styling`, `design/frontend-design`, `design/design`, `design/slides`, `design/taste-skill` (sites e landing pages; as demos de ícones, cenas e momentos foram retiradas para caber no upload) |
 
-Todas as de marketing estão em `ferramentas/marketing/`. Alguns scripts de design (`design/scripts/logo`, `design-system/scripts`) chamam APIs pagas ou descarregam imagens: correr só com o sim do Diogo.
+| Finanças | `financas/journal-entry`, `financas/journal-entry-prep`, `financas/reconciliation`, `financas/financial-statements`, `financas/variance-analysis`, `financas/close-management`, `financas/audit-support`, `financas/sox-testing` |
+| Jurídico | `juridico/review-contract`, `juridico/triage-nda`, `juridico/compliance-check`, `juridico/legal-risk-assessment`, `juridico/vendor-check`, `juridico/legal-response`, `juridico/meeting-briefing`, `juridico/brief`, `juridico/signature-request` |
+
+As ferramentas sem prefixo estão em `ferramentas/marketing/`. Alguns scripts de design (`design/scripts/logo`, `design-system/scripts`) chamam APIs pagas ou descarregam imagens: correr só com o sim do Diogo.
 
 ## Fontes dos princípios
 Hormozi (Equação de Valor, 3 P, 4 caixas do cliente-tipo, Core Four, CLOSER, 8 formas de valer mais por cliente, foco num canal/oferta/cliente-tipo, comparar vencedores com perdedores, ganchos por nível de consciência, repetição); Ava Yuergens (outliers 5X, gancho triplo, 7 tipos de gancho, CTA por palavra-chave); Devin Jatho (retenção, 3 primeiros segundos); Scott Oldford (3 faixas, Relevância/Omnipresença/Intimidade); Eli Wilde (Trindade da Confiança); Taki Moore (Atrair/Converter/Entregar, 5-1-30); Brian Mark (oferta na DM); Josh Lyons (diagnóstico honesto); Nik Setting (perfil como funil, mecanismo com nome). Dossiers completos: /mnt/project-files/conselho/ no projeto "Diogo — Conteúdo & Redes". Os números que os gurus dizem de si próprios não estão verificados.

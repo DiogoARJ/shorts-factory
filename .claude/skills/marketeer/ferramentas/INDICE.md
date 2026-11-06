@@ -88,3 +88,12 @@ Gerado a partir das descrições originais (em inglês). Abrir `ferramentas/<dep
 - `slides`: Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.
 - `ui-styling`: Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs.
 - `ui-ux-pro-max`: UI/UX design intelligence for web, mobile, and desktop.
+
+## Finanças (anthropics/knowledge-work-plugins @ab4cb1c, Apache 2.0)
+Ler primeiro `ferramentas/financas/GUIA.md`. Guias: audit-support, close-management, financial-statements, journal-entry, journal-entry-prep, reconciliation, sox-testing, variance-analysis.
+
+## Jurídico (anthropics/knowledge-work-plugins @ab4cb1c, Apache 2.0)
+Ler primeiro `ferramentas/juridico/GUIA.md`. Guias: brief, compliance-check, legal-response, legal-risk-assessment, meeting-briefing, review-contract, signature-request, triage-nda, vendor-check.
+
+## Design extra
+- `taste-skill` (Leonxlnx/taste-skill @9b4bf93, MIT): sites e landing pages profissionais, anti-"cara de IA". Demos de ícones, cenas e momentos retiradas para caber no upload.

@@ -4,4 +4,3 @@ videos/*/voice.wav
 __pycache__/
 videos/*/img/
 skills/dist/
-.claude/skills/design-taste-frontend/
