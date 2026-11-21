@@ -1,4 +1,4 @@
-<#
+﻿<#
   Instala o Jarvis (Claude Code + Telegram) no PC do Diogo. Usa a subscrição Claude Pro: sem API, sem custos extra.
   Correr numa PowerShell normal, a partir desta pasta:
       Set-ExecutionPolicy -Scope Process Bypass; .\instalar.ps1
